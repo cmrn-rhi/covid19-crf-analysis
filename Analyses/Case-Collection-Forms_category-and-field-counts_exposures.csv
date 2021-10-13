@@ -1,0 +1,219 @@
+LEGEND:,Total Number of Occurences,"Collection Forms Field Counts & Category Comparison
+Last Updated: 2020-07-16",,,,,,,,Key:
+,,,,,,,,,,1
+,,,,,,,,,,2
+N/A,,,,,,,,,,3
+Term(s) in Multiple Categories [counts may differ due to context],,,,,,,,,,4
+,,,,,,,,,,5
+"* see note for details, - Inherited from subterm",,,,,,,,,,6
+fr. French translation,,,,,,,,,,7
+Overlap TBD,,Interm Report,BC,MA,NB,NWT,ON,QC,WHO,8
+,,"Case Details (CD), Exposures (E)","Risk Factors (RF), Exposures (E), Transmission (T)","Risk Factor Information/Underlying Illness (RFI/UI), Acquisition Exposures (AE)","Priority Group (PG), Patient Information (PI), Assessment Details (AD), Assessment Details Risk Factors (ADRF)","Patient Setting (PS), Social Risk Factor (SRF), Pre-existing Conditions (PC), Pre-exisiting Conditions and Risk Factors (PCRF)","Administrative Information (AI), Client Record Demographic Information (CRDI), Exposures (E), Risk Factors (RF), Occupational / Residential (OR)","Case Investigation (CI), Contact Survey (CS), Exposure and Occupation (EO), Patient Living Environment Information (PLEI), Pre-Existing Medical Conditions and Risk Factors (PMCRF), ","Clinical Status (CS), Underlying Conditions and Comorbidity (UCC), Exposure Risk... (ER)","Wordings, Synonyms, Context, Narrower Terms (Brackets indicate # of unique occurences)"
+Collection Form Version Information →,,"PHAC - Coronavirus Disease (COVID-19) Case Report Form [version 2 Last updated March 3, 2020]","BC CDC - COVID-19 Case Report Form [Version Date: April 20, 2020]",MHSU-6683 COVID-19 Case Investigation Form [2020-05-05],NB - COVID-19 Combined Referral and Lab Requisition Form [V5 2020-04-09],"NWT - COVID-19 Report Form (Suspect Case/Person Under Investigation) Part A [Updated: April 27, 2020]","ON - (Appendix 1) Ontario's SARI Case Report Form [April 15, 2020 version 7.0]",QC - Questionnaire d'enquete des cas de Coronavirus COVID-10 [version du: 2 avril 2020],WHO - Revised case report form for confirmed Novel Coronavirus COVID-10 [WHO/2019-nCoV/SurveillanceCRF/2020.2],
+,,,,,,"NWT COVID-19 Report Form (For All Cases) Part B [Updated: April 27, 2020]",,QC - Declaration des cas confirmes et des cas cliniques de COVID-19 20-210-103W [2020],,
+,,,,,,,,,,
+Risk Factors,N/A,PCRF,RF,RFI,-,-,-,-,-,Risk Factors (1); Risk Factor Informaiton (1); Pre-exiting conditions and risk factors (1);
+   Age 60+,1,,,,ADRF,,,,,Age 60+ (1);
+   Post-partum (<=6 weeks),N/A,PCRF,RF,,,,RF,PMCRF,CS/UCC,Post-partum (≤6 weeks) at time of symptom onset (1); Post-partum (<= 6 weeks) (4);
+   Pregnant,N/A,PCRF,RF,RFI,PI,PC,RF,PMCRF,CS/UCC,"Pregnant at time of diagnosis (1); Pregancy - if yes, gestational age (weeks) (2); Pregancy (2); Pregnancy - if yes, trimester (1); Pregnancy (trimester:) (1);"
+   Underlying illness,N/A,-,-,RFI/UI,-,PC,,,,Underlying illness (1); Chronic health condition (1);
+      Cancer,N/A,,,,ADRF,PCRF,RF,PMCRF,CS/UCC,Cancer (2); Malignancy (3);
+      Cardiac disease,N/A,PCRF,RF,RFI/UI,ADRF,PCRF,RF,PMCRF,CS/UCC,"Cardiac disease (4); Chronic cardiac disease (1); cardio-vascular disease (1); Cardiovascular disease, including hypertension (1); Heart disease (1);"
+      Diabetes,N/A,PCRF,RF,RFI/UI,ADRF,PCRF,RF,PMCRF,CS/UCC,Diabetes (8);
+      Hypertension,N/A,,,RFI/UI,ADRF,,,,CS/UCC,"Hypertension (2); Cardiovascular disease, including hypertension (1);"
+      Immunocompromised,N/A,PCRF,RF,RFI/UI,,PCRF,RF,,CS/UCC,"Immunocompromised (3); immunodeficiency disease/condition (2); immunodeficiency, including HIV (1);"
+      Kidney disease,N/A,PCRF,RF,RFI/UI,,PCRF,RF,PMCRF,CS/UCC,Kidney disease (2); chronic kidney disease (1); Renal disease (4);
+      Liver disease,N/A,PCRF,,RFI/UI,,PCRF,RF,PMCRF,CS/UCC,Chronic liver disease (1); Liver disease (4); Hepatic disease (1)
+      Respiratory disease,N/A,PCRF,RF,RFI/UI,ADRF,PCRF,RF,PMCRF,CS/UCC,Chronic respiratory/pulmonary condition (1); Chronic pulmonary disease (1); Respiratory disease (4); chronic respiratory disease (1); Chronic lung disease (1)
+"         Asthma, Tuberculosis, etc.",N/A,,,,,,RF,PMCRF,PMCRF,Asthma (1); Chronic bronchitis (1); Emphysema (1); Tuberculosis (1); Other (1);
+      Other,N/A,,RF,,,,RF,PMCRF,,"Other (Specify) (1); Other chronic conditions (1); Others, specify (1);"
+Exposures (Setting / Location),8,E,-,RFI,-,-,-,CI,-,Exposures (1); Contact Setting (1); Social Circles (1); Case Exposure Information (1); Exposure Setting Location (1); Sensitive Environment (1)
+   14 days prior to symptom/illness onset,7,E,-,-,-,,-,-,-,14 days prior to symptom onset (); 14 days prior to illness onset (); 14 days preceding symptoms ();
+      Close contact with a person with acute respiratory illness/group exposure,1,,,,AD,,,,,Close contact with a person with acute respiratory illness/group exposure in last 14 days (1); Close contact with a person with acute respiratory illness/group exposure in last 14 days (1);
+      Close contact with a person with fever and/or cough who has been to an affected area,2,E,,,,,E,,,"Was the case in close contact* with a person with fever and/or cough who has been to an affected area** in the 14 days prior to their illness onset (1); Was the case in close contact with a person who had fever, respiratory symptoms like cough or sore throat, or respiratory illness like pneumonia (1);"
+      Close contact with a symptomatic confirmed or probable case,6,,E,RFI,-,,E,-,-,Was the case in close contact* with a symptomatic confirmed or probable case in the 14 days prior to symptom onset (1); Was the client in close contact with a probable or confirmed case (1); Contact of a new or previously diagnosed case (confirmed or probable) (1); Was the case in close contact with a confirmed case of the same disease (1); Was the case in close contact with a probable case of the same disease (1);
+known c,4,,,,AD,,E,CS,ER,Contact with a confirmed case of COVID-19 / fr. Contact avec un cas confirmé de COVID-19 (1); Contact with confirmed case within past 14 days (2); Was the case in close contact with a confirmed case of the same disease (1);
+            Prolonged close contact with known case,1,,,,,,,EO,,Did the person have close contact (within 2 meters or 6 feet) and extended (more than 15 minutes in total) with a person with COVID-19 (1);
+      Contact with someone with similar illness,1,,,RFI,,,,,,Contact with someone with similar illness (1);
+      Exposed to live (non-domestic) animals or animal products,7,E,-,RFI,-,,E,-,-,"Did the case have contact with live animals (not considered household pets) or animal products in any of the affected areas (This includes direct contact with animals, or contact with their feces or urine, soiled bedding/litter, or contact with other animal) products (e.g. organs, exotic meats) (1); Animal or Animal Waste Contact (live animal markets, not including domestic pets (1); Did the case have direct contact with animals or animal products (1);"
+          Indirect exposure to (non-domestic) animals,1,,,,,,,,,Did the case have indirect contact with animals (1);
+      Exposed to a known cluster or outbreak,1,,E,,,,,,,"Was this client exposed to a known cluster or outbreak (e.g. communal setting with cases, community cluster.) (1);"
+"      Frequented environments with exposure to symptomatic people AND has not travelled, contacted confirmed case, nor associated with an outbreak",1,,,,,,,CS,,"The case frequented environments where he would have been in contact with symptomatic people (If the case has not traveled, has not had contact with a confirmed case, is not associated with an outbreak) (1);"
+      Prolonged close contact during work,1,,,,,,,EO,,Did the patient have close and prolonged contact during work?
+     Travelled,7,-,-,-,-,,-,-,ER,Has the case travelled (1);
+         Traveled on a plane or other public carrier,1,,,,,,E,,,Did the case travel on a plane or other public carrier(s) (1);
+         Travelled outside region*,4,-,-,-,,,,CI,,Travel outside the region during the 14 days preceding the symptoms / fr. Voyage hors région au cours des 14 jours précédant les symptômes (1);
+            Travelled outside resident Province/Territory or Canada,5,E,-,-,,,E,-,,Did the case travel outside of their province/territory of residence or outside of Canada (2);
+               Travelled outside province/terrority or residence,4,,-,RFI,AD,,,CI,,Did the case travel outside Quebec (1); Other province (i.e. outside MA) in Canada (1); Travelled outside of New Brunswick within past 14 days (1);
+               Travelled outside Canada,3,,E,RFI,,,,CI,,Known case traveled outside Canada / fr. Le cas connu a voyagé hors Canada (1); Did the client travel outside of Canada (1); Exposure outside Canada (1);
+      Visited any healthcare facility,1,,,,,,,,ER,Has case visited any health care facility (1);
+      Worked outside the home,1,,,,,,,EO,,Did the person work outside the home in the two weeks before symptoms started (1);
+   48 hours prior to symptom/illness onset,1,,,,,,,EO,,In the 48 hours before the onset of symptoms (1);
+         Close and prolonged contact during work,1,,,,,,,EO,,Did the patient have close and prolonged contact during work (1);
+   Animal / Animal Products Exposure,2,-,,,,,E,,,Did the case have direct contact with any animals or animal products (1);
+      Agricultural event/petting zoo      ,1,,,,,,E,,,Agricultural fair or event/petting zoo (1);
+      Animal,2,E,,,,,E,,,Specify what animals or animal products that you had contact with (1); What type of animals did the case have direct contact with (1);
+         Animal sick or dead,1,,,,,,E,,,Did the animal display any symptoms of illness or was the animal dead (1); Animal sick or dead (1);
+         Bats,1,,,,,,E,,,Bats (1);
+         Camel,1,,,,,,E,,,Camel (1);
+         Cat(s),1,,,,,,E,,,Cat(s) (1);
+         Cows,1,,,,,,E,,,Cows (1);
+         Dogs,1,,,,,,E,,,Dogs (1);
+         Horses,1,,,,,,E,,,Horses (1);
+         Poultry,1,,,,,,E,,,Poultry (1);
+         Rodents,1,,,,,,E,,,Rodents (1);
+         Sheep / Goat,1,,,,,,E,,,Sheep / Goat (1);
+         Snake / Reptiles,1,,,,,,E,,,Snake / Reptiles (1);
+         Swine,1,,,,,,E,,,Swine (1);
+         Wild Birds,1,,,,,,E,,,Wild Birds (1);
+         Wild Game (e.g. Deer),1,,,,,,E,,,Wild Game (e.g. Deer) (1);
+         Other,1,,,,,,E,,,Other (1);
+      Direct Contact,1,,,,,,E,,,Direct contact (touch or handle) (1);
+      Indirect Contact,1,,,,,,E,,,"Indirect contact (e.g. visit or walk through or work in an area where animals are present, etc.) (1);"
+   Childcare setting,4,,E,,PI,,E,CS,,Childcare services / fr. Service de garde (1); Daycare (1); Childcare centre (1); school/daycare (1);
+   Community,4,,E,AE,,-,-,,,Community (1); Community Contact (1);
+      Home visit,1,,,,,PS,,,,Home visit (1);
+      Household*,3,,E,AE,,,E,,,Household (1); Household member (1);
+      Non-Household,1,,,AE,,,,,,"Close, non-household (1);"
+   Conference,1,,E,,,,,,,Conference (1);
+   Exposure occured in Canada,1,E,,,,,,,,Exposure occured in Canada (1);
+   Exposed to >= 25 contacts,1,,E,,,,,,,Was there an event or location at which this client may have exposed 25 or more contacts (1);
+   Family setting,2,E,,,,,,CS / CI,,Family setting (1); Family / fr. Familial (1);
+   Farm,1,,,,,,E,,,Farm (1);
+   Flight/Carrier Details,1,E,,,,,,,,"Flight/Carrier Details (carrier name, flight #, seat #);"
+   Group Home,2,,E,,,,E,,,"Group home (community living) (1); Other institutional setting (dormitory, shelter/group home, prison, etc.) (1);"
+   Healthcare Setting,6,E,-,,-,-,E,-,,"Healthcare setting (1); Care environment / fr. Milieu de soins (1); Health care setting (e.g. hospital, long-term care home, community provider's office) (1);"
+      Acute care facility,1,,E,,,,,,,Acute care facility (1);
+      Assisted living,1,,E,,,,,,,Assisted Living
+      Clinic,1,,,,PI,,,,,Clinic (1);
+      Community Health Centre,2,,,,PI,,E,,,"Community health centre (1); Health care setting (e.g. hospital, long-term care home, community provider's office) (1);"
+      Hospital Centre,3,,,,PI,,E,CS / CI / EO,,"Hospital centre / fr. CH* (1); Hospital (1); Health care setting (e.g. hospital, long-term care home, community provider's office) (1);"
+         Emergency department,1,,,,,PS,,,,ED (not admitted) (1);
+      Inpatient (ward),1,,,,,PS,,,,inpatient (ward) (1);
+      Inpatient (ICU),1,,,,,PS,,,,inpatient (ICU);
+      Long-Term Residential Care Centre,4,,E,,,PS,E,CS / CI / EO,,"Residential and Long-Term Care Centre / fr. CHSLD* (1); Long term care facility (1); Facility (LTC, Corrections) (1); Health care setting (e.g. hospital, long-term care home, community provider's office) (1);"
+      Pharmacy,1,,,,PI,,,,,Community pharmacy (1);
+      Private Seniors' Residence,1,,,,,,,CS / CI / EO,,Private Seniors' Residence / fr. RPA* (1);
+      Other healthcare setting,1,,,,,,,CI,,Other healthcare setting / fr. Autre milieu de soins (1);
+      Physician office,2,,,,PI,PS,,,,Physician office (1); physician office/clinic (1);
+   Hotel/Residence (Outside Normal Residence),2,E,,,,,,CI,,"Hotel/Residence (1); Hotel, Place of residence / fr. ""Hôtel lieu de résidence"" (1);"
+   Independent living,1,,E,,,,,,,Independent living (1);
+   Laboratory,4,-,-,,PI,,,EO,,"Laboratory (1); Lab exposure to biological material (e.g. primary clinical specimens, virus culture isolates) known to contain COVID (SARS-CoV-2) (1); Lab (1);"
+      Laboratory exposure to COVID-19,3,E,E,,AD,,,,,"Lab exposure to biological material (e.g. primary clinical specimens, virus culture isolates) known to contain COVID (SARS-CoV-2) (2); Laboratory exposure to biological materials known to contain SARS-CoV02 (1);"
+   Local Community Service Centre,1,,,,,,,-,,Local Community Service Centre - Routine service (1); Local Community Service Centre - Home Support (1);
+      Routine Services,1,,,,,,,EO,,Local Community Service Centre - Routine service (1);
+      Home Support,1,,,,,,,EO,,Local Community Service Centre - Home Support (1);
+   Animal/Meat market,2,-,,,,,E,,,"Market where animals, meats and/or animal products are sold (1);"
+      Live animal market,1,E,,,,,,,,live animal market (1);
+   Nursery,1,,,,,,,CI,,Nursery / fr. Garderie (1);
+   Not Investigated,1,,,,,,,CI,,Not investigated / fr. Non investigué (!);
+   Other (exposure setting / location),2,E,-,,,,,,,"Other, specify (1);"
+      Other residential facility,1,,E,,,,,,,"Other residential facility type, specify (1);"
+      Other workplace,1,,E,,,,,,,Workplace not otherwise specified (1);
+   Outdoor Work/Recreation,1,,,,,,E,,,"Outdoor work/recreation (camping, hiking, hunting etc.) (1);"
+      Camping,1,,,,,,E,,,"Outdoor work/recreation (camping, hiking, hunting etc.) (1);"
+      Hiking,1,,,,,,E,,,"Outdoor work/recreation (camping, hiking, hunting etc.) (1);"
+      Hunting,1,,,,,,E,,,"Outdoor work/recreation (camping, hiking, hunting etc.) (1);"
+   Outbreak,3,,,RFI,,,AI,CI,,Known outbreak / fr. éclosion connue (1); Outbreak associated (1); Outbreak or cluster related (1);
+      Provincial/Territorial Outbreak,1,,,,,,,,,???
+   Correctional facility,2,,E,,,,,CI,,Prison; fr. Prison (1); Correctional facility (1);
+   Transport,2,,,,,,E,CI,,"Transport / fr. Transport (1); In means of travel (place, train, etc.) (1);"
+      Public transport,1,,,,,,,CS,,Public transport / transport public (1);
+   Travel Acquired*,1,,,AE,,,,,,Travel (1)
+   School,3,,E,,,,E,CS / CI,,School environment / Milieu de scolaire (1); School / fr. École (2); School/daycare (1);
+   Shelter*,2,,E,,,,E,,,"Shelter (1); Other institutional setting (dormitory, shelter/group, home, prison, etc.) (1);"
+   Unknown,3,E,E,,,,,EO,,Unknown (2); from an unknown source (1);
+   Worksite(s),3,E,E,,,,E,,,Worksite(s); Work place (1); Work (1); Work enviornment / Milieu de travail (1); Work (1);
+Living Environment,,-,-,,,-,OR,-,,Occupational / Residential (1);
+   Dormitory,1,,,,,,E,,,"Other institutional setting (dormitory, shelter/group home, prison, etc.) (1);"
+   First Nations Reserve,2,CD,,,,,CRDI,,,Does the case reside on a First Nations Reserve most of the time? (2); Resides on a reserve / fr. Réside sur une réserve (1);
+   Home,2,,,,,,E,PLEI,,Vit à domicile / Lives at home (1); Home (1);
+   Lives in a closed environment,2,,-,,,,,PLEI,,Réside en milieu fermé / Lives in a closed environment (1);
+      Hospital Centre,1,,,,,,,PLEI,,Hospital centre / fr. CH* (1);
+      Long-Term Residential Care Centre,2,,E,,,,,PLEI,,Residential and Long-Term Care Centre / fr. CHSLD* (1); Long-term care facility (1);
+      Private Seniors' Residence,1,,,,,,,PLEI,,Private Seniors' Residence / fr. RPA* (1);
+      Intermediate Resource (IR)*,1,,,,,,,PLEI,,Ressource intermédiaire (RI) / Intermediate Resource (IR) (1);
+         Family-Type Intermediate Resource (FTR),1,,,,,,,PLEI,,Ressource intermédiaire de type familial (RTF) / Family-Type Intermediate Resource (FTR) (1);
+      Community accommodation,1,,,,,,,PLEI,,Hébergement communautaire / Community accommodation (1);
+      Rehab center,1,,,,,,,PLEI,,Centre de réadaptation / Rehab centre (1);
+      Correctional facility,2,,,,,PS,E,PLEI,,"Prison (1); Facility (LTC, Corrections); Other institutional setting (dormitory, shelter/group home, prison, etc.) (1);"
+      Religious congregation,1,,,,,,,PLEI,,Congrégation religieuse / Religious congregation (1);
+      Other (closed living environment),1,,,,,,,PLEI,,Autre / Other (1);
+Professional Role (Is or was in contact with),,CD,/,-,-,-,OR,EO,-,Case is (professional role) (1); Occupation (1); Role/group (1); Occupational / Residential (1);
+   Attendee / Visitor?,5,,-,-,-,-,-,,,
+       Child care attendee,2,,-,RFI,,,E,,,Child care (work/volunteer/attendee) (1); School or daycare attendee (1);
+          Daycare attendee,1,,E,,,,,,,Work in or attend a school or daycare (1);
+       Inmate / Correctional Centre attendee,4,,E,RFI,PG/PI,PS,,,,"Inmate (1); Correctional center (Resident) (1);  Symptomatic patients/residents in insitutional and group living settings with vulnerable populations (NH, corrections, shelter, etc.) (1); NH/LTC/ARF (1); Facility (LTC, Corrections) (1);"
+       School attendee (Student),1,,E,,,,,,,Work in or attend a school or daycare (1); Work in or attend a school or daycare (1);
+          Healthcare student,1,,E,,,,,,,"Student (medical, dental, nursing, lab) (1);"
+   Resident / Patient,6,,E,-,-,-,-,-,,Resident / patient (1)
+      Healthcare facility resident/patient,2,,,RFI,-,,,,,Health care facility (resident/patient) (1);
+          Healthcare patient with respiratory symptoms and no lab diagnosis,1,,,,PG,,,,,Hospitalized patients with respiratory symptoms (new or exacerbated) and no alternative laboratory-based diagnosis (1);
+      Household member,1,,,,,,E,,,Household member (1);
+      Long-Term Residential Care Centre,2,,,,,SRF,,CI,,Residential and long-term care centre worker (1); NH/LTC/ARF (1); Resident of LTC/Institution (1); Resident of a retirment residence or long-term care facility (1);
+      Personal care home resident,1,,,RFI,,,,,,Personal care home (resident) (1);
+      Retirement residence,1,,,,,,E,,,Resident of a retirment residence or long-term care facility (1);
+      Shelter resident,2,,,RFI,PG,,,,,"Shelter (resident) (1);  Symptomatic patients/residents in insitutional and group living settings with vulnerable populations (NH, corrections, shelter, etc.) (1);"
+      Other congregate setting resident,1,,,RFI,,,,,,"Other congregate setting (work/volunteer/resident, specify) (1);"
+   Visitor,?,,,,,,,,,
+   Volunteer,3,-,-,-,,,,,,
+      Child care volunteer,1,,,RFI,,,,,,Child care (work/volunteer/attendee);
+      Correctional center volunteer,1,,,RFI,,,,,,Correctional center (Work/volunteer) (1);
+      Healthcare volunteer,4,-,E,RFI,,,E,,,Healthcare volunteer (2);
+         Healthcare volunteer with direct patient contact,2,CD,,,,,E,,,Healthcare volunteer with direct patient contact (2); Health care facility (work/volunteer) (1);
+      Personal care home volunteer,1,,,RFI,,,,,,Personal care home (work/volunteer) (1);
+      Shelter volunteer,1,,,RFI,,,,,,Shelter (work/volunteer) (1);
+      Other congregate setting volunteer,1,,,RFI,,,,,,"Other congregate setting (work/volunteer/resident, specify) (1);"
+   Worker,5,-,E,-,-,,,-,,Staff (1);
+      Animal handler,2,,,RFI,-,,,,,"Animal handler (farmer, vet, abbatoir, etc.) (1); Person who works with animals (1);"
+         Abbatoir worker,1,,,RFI,,,,,,"Animal handler (farmer, vet, abbatoir, etc.) (1);"
+         Animal Rescue worker,1,,,,PI,,,,,NH/LTC/ARF (1);
+         Farmer,2,,,RFI,,,E,,,"Animal handler (farmer, vet, abbatoir, etc.) (1); Farm worker (1);"
+         Vet,2,,,RFI,,,E,,,"Animal handler (farmer, vet, abbatoir, etc.) (1); Veterinary worker (1);"
+      Child care worker,5,,-,RFI,PG/PI,-,,-,,"Child care (work/volunteer/attendee);  Symptomatic staff in hospitals, nursing homes, childcare centres and other institutional or group living settings with direct patient care/contact (1); Childcare centre (1);"
+         Daycare worker,3,,E,,,SRF,,CI,,School or daycare worker / fr. Travailleur école ou garderie (1); Work in or attend a school or daycare (1); School/daycare worker OR attendee (1);
+      Cook,1,,,,,,,EO,,Cook / fr. cuisinier (1);
+      Correctional center worker,1,,,,,,,CI,,Correctional center (Work/volunteer) (1); Prison worker (1);
+      Customer Service Worker,1,,,,,,,EO,,Trade with customer serivce / fr. Commerce avec service à la clientèle (1);
+      Healthcare worker/staff,8,-,E,RFI,SRF,-,E,EO,ER,Healthcare worker (2); Health care facility (work/volunteer) (1); Health care worker (1); Person who works in a healthcare setting (1); Health care worker (2);
+         Administrative,1,,E,,,,,,,Administrative (1);
+         Hospital worker*,1,,,,,,,CI,,Hospital centre worker (1);
+         Healthcare worker with direct patient contact,5,CD,-,,PG,,E,-,,"Healthcare worker with direct patient contact (1); Symptomatic healthcare professional with direct patient care/contact (MD. NP, nurse, pharmacist etc.) (1); Works with patients (1); Healthcare worker with direct patient contact (1);"
+            Ambulance worker,1,,,,PI,,,,,EM/ANB; Extra-Mural/Ambulance New Brunswick (1);
+            Care aide,1,,E,,,,,,,Care aide (1);
+            Dental professional,1,,E,,,,,,,Dental professional (1);
+            Emergency medical personnel,1,,E,,,,,,,Emergency medical personnel (1);
+            Home/Community Health Worker,1,,,,PI,,,,,EM/ANB; Extra-Mural/Ambulance New Brunswick (1);
+            Nurse*,3,,E,,-,,,EO,,Nurse / fr. infirmière (2); 
+               Licensed practical nurse,1,,E,,,,,,,Licensed practical nurse (LPN) (1);
+               Nurse pracitioner,1,,,,PG,,,,,"Healthcare worker with direct patient contact (1); Symptomatic healthcare professional with direct patient care/contact (MD. NP, nurse, pharmacist etc.) (1);"
+            Pharmacist,1,,,,PG,,,,,"Healthcare worker with direct patient contact (1); Symptomatic healthcare professional with direct patient care/contact (MD. NP, nurse, pharmacist etc.) (1);"
+            Physician,2,,E,,PG,,,,,"Physician (1); Healthcare worker with direct patient contact (1); Symptomatic healthcare professional with direct patient care/contact (MD. NP, nurse, pharmacist etc.) (1);"
+            Physician office staff,1,,,,PI,,,,,Physician office (1);
+         Housekeeping,1,,E,,,,,,,Housekeeping (1);
+         Kitchen staff,1,,E,,,,,,,Kitchen staff (1);
+         Laboratory worker,4,,E,RFI,,SRF,E,,,Laboratory technician (1); Laboratory worker (1); Lab worker/handles biological specimens (1); Person who works in a laboratory (1);
+      Personal care home worker,3,,,RFI,PG,,,-,,"Personal care home (work/volunteer) (1);  Symptomatic staff in hospitals, nursing homes, childcare centres and other institutional or group living settings with direct patient care/contact (1);"
+         Private Seniors' Residence worker,1,,,,,,,EO,,Private seniors' residence worker (1);
+         Long-Term Residential Care Centre worker,1,,,,,,,CI,,Residential and long-term care centre worker (1); NH/LTC/ARF (1);
+      First Responder,2,,,,PG,,,CI,,1st responder / fr. 1er répondant (1); First responder (1);
+         Police,1,,,,,,,EO,,Police / fr. policier (1);
+      Laboratory worker handling biological specimens,1,,,,,,E,,,laboratory worker handling biological speciments (1);
+      School worker,3,,,,,SRF,E,EO,,School or daycare worker / fr. Travailleur école ou garderie (1); School/daycare worker OR attendee (1); School or daycare worker (1);
+      Shelter worker,2,,,RFI,PG,,,,,Shelter (work/volunteer) (1);
+      Other worker,2,,,-,,,,EO,,Other worker / fr. autre traveilleur (1);
+         Other congregate setting worker,1,,,RFI,,,,,,"Other congregate setting (work/volunteer/resident, specify) (1);"
+Vulnerable Groups,5,,,-,-,-,-,PLEI,,Vulnerable groups (1);
+   First Nations,2,,,,PG,,,PLEI,,Native (1); Indigenous communities (1);
+   Member of a religious community,1,,,,,,,PLEI,,Member of a religious community (1); Experiencing Homelessness (1);
+   Homeless,2,,,,,SRF,,PLEI,,Homeless (1);
+"   Other, Specify (vulnerable groups)",1,,,,,,,PLEI,,"Other, specify (1);"
+   Worker at risk of outbreak,1,,,,,,,CI,,Work at risk of outbreak / fr. Travailleur en milieu à risque d’éclosion (1)
+   Worker in direct contact with customers,1,,,,,,,EO,,Worker in direct contact with customers / fr. Travailleur en contact direct avec la clientèle (1);
+   Worker providing essential services,2,,,,inferred,,,CI,,Worker providing essential services / fr. Travailleur fournissant des services jugés essentiels (1);
+   Substance User,3,,,-,,,RF,-,,Substance use (1);
+      Alcohol abuse,1,,,,,,RF,,,Alcohol abuse (1);
+      Smoking,3,,,RFI,,,RF,PMCRF,,Smoking / fr. Tabagisme (2); Smoker (current) (1);
+      Injection drug,1,,,,,,RF,,,Injection drug use (1);
+      Vaping,1,,,RFI,,,,,,Vaping (1);
+"      Other, specify (substance use)",1,,,RFI,,,,,,Other (specify) (1);

@@ -1,0 +1,257 @@
+PHAC vs WHO COVID-19 Case Report Forms - Field and Data Structure Comparisons,,,
+LAST UPDATE: 2020-07-28,,,
+Field Name,PHAC (Interim National),WHO,Field Count
+"Form Information
+Organization Based on PHAC Interim National Form","PHAC - Coronavirus Disease (COVID-19) Case Report Form [version 2 Last updated March 3, 2020]",WHO - Revised case report form for confirmed Novel Coronavirus COVID-10 [WHO/2019-nCoV/SurveillanceCRF/2020.2],
+Case Protected Information,,,
+CASE Information,,,
+First name,TRUE,,1
+Last name,TRUE,,1
+Usual residential address,TRUE,,1
+City,TRUE,,1
+Province/Territory,TRUE,,1
+Postal code,TRUE,,1
+Local Health Region,TRUE,,1
+Phone number #1,TRUE,,1
+Phone number #2,TRUE,,1
+Date of Birth,dd/mm/yyyy,,1
+Local Case ID,TRUE,,1
+P/T Case ID,TRUE,Unique Case Identifier (used in country),2
+Proxy Information,,,
+Is respondent a proxy?,☐ No ☐ Yes,,1
+Last name,TRUE,,1
+First name,TRUE,,1
+Relationship to case,TRUE,,1
+Phone number #1,TRUE,,1
+Phone number #2,TRUE,,1
+Contact information for person reporting,,,
+First and Last Names,TRUE,,1
+Telephone #,TRUE,,1
+Email,TRUE,,1
+Main Form,,,
+Case ID,"P/T Case ID
+(duplicate of above field)",Unique Case Identifier (used in country),2
+Reported Date,dd/mm/yyyy,dd/mm/yyyy,2
+Administrative Information,,,
+(Report Status),"☐ INITIAL REPORT 
+☐ UPDATED REPORT",,1
+Reporting Province / Territory,BC / AB / SK / MB ...,,1
+Reporting Country,Inferred from form,TRUE,2*
+Place where case was diagnosed,Inferred from form and/or form contents,"Country, Province",2*
+Contact information for P/T person reporting,,,
+First Name,TRUE,,1
+Last Name,TRUE,,1
+Email,TRUE,,1
+Telephone #,TRUE,,1
+Reason for testing,TRUE,TRUE,2
+Individual sought healthcare,TRUE,TRUE,2
+Contact of a case ,TRUE,TRUE,2
+Routine respiratory disease surveillance ,TRUE,TRUE,2
+Repatriation,,TRUE,1
+Detected at point of entry,,TRUE,1
+Unknown,,TRUE,1
+"Other, specify:",TRUE,TRUE,2
+Surveillance Case Classification,"☐ Confirmed 
+☐ Probable 
+☐ Person Under Investigation 
+☐ Does not meet",,1
+Case Details,,,
+Residency,"☐ Canadian resident 
+☐ Non-Canadian Resident, Country",Specify Country,2
+Detected at point of entry?,☐ No ☐ Yes,TRUE,2
+Location of entry,TRUE,,1
+Date of entry,dd/mm/yyyy,,1
+Gender,"☐ Male ☐ Female 
+☐ Other ☐ Unknown",,1
+Sex at birth,,☐ Male ☐ Female ,1
+Age ,integer,integer,2
+Years,TRUE,TRUE,2
+Months,TRUE,If <1 year old,2
+Days,,If <1 month old,1
+Does the case identify as Indigenous?,"☐ Yes ☐ No  
+☐ Refused to Answer ☐ Unknown",,1
+"If yes, indicate which group","☐ First Nations ☐ Metis ☐ Inuit 
+☐ Refused to Answer ☐ Unknown",,1
+Does the case reside on a First Nations Reserve most of the time?,"☐ Yes ☐ No 
+☐ Refused to Answer ☐ Unknown",,1
+Case is (professional role),"☐ Healthcare worker/volunteer with direct patient contact
+☐ Laboratory worker handling biological specimens
+☐ Veterinary/animal worker
+☐ School or daycare worker/attendee
+☐ Farm worker
+☐ Resident of long-term care facility/institutional facility
+☐ Other, specify: _______________________",,1
+Symptoms,,Specifically at time of speciment collection that resulted in first laboratory confirmation,
+Symptom Onset Date,mm/dd/yyyy BREAKS PATTERN!,dd/mm/yyyy,2
+Asymptomatic,☐ Asymptomatic,TRUE,2
+Symptomatic,,"☐ No (i.e. Asymptomatic)
+☐ Yes
+☐ Unknown",1
+Symptom,,,
+Cough,"☐ Yes ☐ No ☐ Unknown 
+☐ Not asked/assessed",,1
+Fever (≥38°C),"""",,1
+Feverish/chills (temperature not taken),"""",,1
+Sore throat,"""",,1
+Runny nose,"""",,1
+Shortness of breath/difficulty breathing,"""",,1
+Nausea/vomiting,"""",,1
+Headache,"""",,1
+General weakness,"""",,1
+"Pain (muscular, chest, abdominal, joint, etc.)","""",,1
+Irritability/confusion (page 3),""" ",,1
+Diarrhea,"""",,1
+"Other, specify","""",,1
+PRE-EXISTING CONDITIONS and RISK FACTORS,,Underlying conditions and comorbidity,
+Any underlying conditions?,,☐ No ☐ Yes ☐ Unknown,1
+Cardiac disease,☐ Yes ☐ No ☐ Unknown ☐ Not asked,TRUE,2
+including hypertension,,TRUE,1
+Chronic neurological or neuromuscular disorder,☐ Yes ☐ No ☐ Unknown ☐ Not asked,TRUE,2
+Diabetes,"""",TRUE,2
+Immunodeficiency disease/condition,"""",TRUE,2
+including HIV,,TRUE,1
+Liver Disease,☐ Yes ☐ No ☐ Unknown ☐ Not asked,TRUE,2
+Malignancy,"""",TRUE,2
+Post-partum (≤6 weeks),"""",TRUE,2
+Pregnancy,"""",TRUE,2
+"If yes, trimester",1st / 2nd / 3rd,Specify,2
+Renal Disease,"""",TRUE,2
+Respiratory Disease,"""",TRUE,2
+"Other, specify","""",TRUE,2
+"CLINICAL EVALUATIONS, COMPLICATIONS, and DIAGNOSES",,,
+Abnormal lung auscultation,☐ Yes ☐ No ☐ Unknown ☐ Not assessed,,1
+Altered mental status,"""",,1
+Clinical or radiological evidence of pneumonia,"""",,1
+Coma,"""",,1
+Conjunctival injection,"""",,1
+Diagnosed with Acute Respiratory Distress Syndrome,"""",,1
+O2 saturation <95%,"""",,1
+Encephalitis,"""",,1
+Hypotension,"""",,1
+Pharyngeal exudate,"""",,1
+Renal failure,"""",,1
+Seizure,"""",,1
+Sepsis,"""",,1
+Tachypnea (accelerated respiratory rate),"""",,1
+"Other, specify","""",,1
+CLINICAL COURSE and OUTCOMES (complete if applicable) (Page 4),,,
+Hospitalization,☐ Yes ☐ No ☐ Unknown ,☐ No ☐ Yes ☐ Unknown,2
+ H. Admission date,TRUE,dd/mm/yyyy,2
+ H. Discharge date,TRUE,dd/mm/yyyy,2
+Intensive Care Unit (ICU),☐ Yes ☐ No ☐ Unknown,☐ No ☐ Yes ☐ Unknown,2
+ ICU Start Date,TRUE,,1
+ ICU End Date,TRUE,,1
+Isolation (e.g. negative pressure),☐ Yes ☐ No ☐ Unknown,"...with infection control in place
+☐ No ☐ Yes ☐ Unknown",2
+ Isolation Start Date,TRUE,dd/mm/yyyy,2
+ Isolation End Date,TRUE,dd/mm/yyyy,2
+Ventilation,,☐ No ☐ Yes ☐ Unknown,1
+Mechanical ventilation,☐ Yes ☐ No ☐ Unknown,,1
+ MV. Start Date,TRUE,,1
+ MV. End Date,TRUE,,1
+Extracorporeal membrane oxygenation,,☐ No ☐ Yes ☐ Unknown,1
+"Current Disposition
+*Definition: resolution of symptoms followed by two negative tests at least 24 hours apart","☐ Recovered* ☐ Stable 
+☐ Deteriorating ☐ Deceased",,1
+Disposition date,mm/dd/yyyy BREAKS PATTERN!,,1
+Date of report re-submission (as soon as disease is known or 30 days after initial report),,,
+Disposition (Health Outcome) 30 days after initial report,,"☐ Recovered/Health ☐ Not recovered 
+☐ Death ☐ Unknown ☐ Other",1
+"if released from hospital/isolation, date of last laboratory test",,dd/mm/yyyy,1
+Results of last test,,☐ Positive ☐ Negative ☐ Unknown,1
+"If case was asymptomatic at time of specimen collection resulting in first laboratory confirmation, did the case develop any symptoms or signs at any time prior to discharge or death",,TRUE,1
+"No (i.e., case remains asymptomatic)",,TRUE,1
+"Yes, asymptomatic case (as previously reported) developed symptoms and/or signs of illnes",,TRUE,1
+"if yes, date of onset of symptoms/signs of illness",,dd/mm/yyyy,1
+Unknown,,TRUE,1
+Total number of contacts followed for this case,,interger or ☐ Unknown,1
+If deceased,,Date of report re-submission (as soon as disease is known or 30 days after initial report),
+Death attributed/linked to respiratory illness?,☐ Yes ☐ No ☐ Unknown,TRUE,2
+Cause of death (as listed on death certificate),TRUE,,1
+Date of Death,mm/dd/yyyy BREAKS PATTERN!,dd/mm/yyyy,2
+EXPOSURES (add additional details in the comments section as necessary),,Exposure risk in the 14 days prior to symptom onset (prior to testing if asymptomatic),
+"In the 14 days prior to symptom onset, did the case travel outside of their province/territory of residence or outside of Canada?","☐ Yes 
+☐ No 
+☐ Refused to Answer 
+☐ Unknown",☐ No ☐ Yes ☐ Unknown,2
+"If yes, specify the following
+(REPEATABLE)",,,
+Departure Country,(city/country),,1
+"Destination
+Country",(city/country),(city/country),2
+Start Date,mm/dd/yyyy BREAKS PATTERN!,,1
+End Date,mm/dd/yyyy BREAKS PATTERN!,TRUE,2
+Hotel/Residence,TRUE,,1
+"Flight/Carrier Details
+(carrier name, 
+flight #, seat #)",TRUE,,1
+Was the case in close contact* with a symptomatic confirmed or probable case in the 14 days prior to symptom onset?,"☐ Yes 
+☐ No 
+☐ Unknown","Contact with confirmed (not probable) case:
+☐ No ☐ Yes ☐ Unknown",2
+"If yes, complete the following (REPEATABLE)",,,
+Case ID(s),TRUE,Contact ID,2
+Date of First Contact,mm/dd/yyyy BREAKS PATTERN!,TRUE,2
+Sustained contact,☐ Y ☐ N ☐ DK,,1
+Date of Last Contact,mm/dd/yyyy BREAKS PATTERN!,TRUE,2
+Contact Setting Comments,"☐ Healthcare setting
+☐ Family Setting
+☐ Work place
+☐ Unknown
+☐ Other, specify ______",TRUE,2
+"Was the case in close contact* with a person with fever and/or cough who has been to an affected area** in the 14 days prior to their illness onset?
+* close contact is defined as a person who provided care for the patient, including healthcare workers, family members or other caregivers, or who had other similar close physical contact OR who lived with or otherwise had close prolonged contact with a probable or confirmed case while the case was ill.
+(REPEATABLE) (page 5)",☐ Yes ☐ No ☐ Unknown,,1
+Date of last contact,mm/dd/yyyy BREAKS PATTERN!,,1
+"If yes, specify contact setting
+","☐ Healthcare setting
+☐ Family Setting
+☐ Work place
+☐ Unknown
+☐ Other, specify",,1
+"Exposure occurred in Canada
+","☐ Yes
+☐ No , specify _____
+☐ Unknown",,1
+"In the 14 days prior to symptom onset, did the case have contact with live animals (not considered household pets) or animal products in any of the affected areas**? 
+
+This includes direct contact with animals, or contact with their feces or urine, soiled bedding/litter, or contact with other animal products (e.g. organs, exotic meats)",☐ Yes ☐ No ☐ Unknown,,1
+"If yes, specify what animals or animal products that you had contact with",TRUE,,1
+"If yes, where
+
+","☐ Home
+☐ Work
+☐ During travel
+☐ Live animal market",,1
+Specify city,TRUE,,1
+"14 days prior to symptom onset, is the case a health care worker (any job in a health care setting)",,☐ No ☐ Yes ☐ Unknown,1
+"if yes, Country/City/Name of Facility",,TRUE,1
+"14 days prior to symptom onset, has the case visited any health care facility",,☐ No ☐ Yes ☐ Unknown,1
+Total number of contacts identified for this case,integer,1-5,2
+unknown,☐ Unknown,,1
+Most likely country of exposure,,TRUE,1
+"LABORATORY INFORMATION (microbiology / virology / serology) (complete if applicable)
+(REPEATABLE)",,,
+Lab ID,TRUE,,1
+Specimen Collection Date,mm/dd/yyyy BREAKS PATTERN!,,1
+Specimen Type & Source,TRUE,,1
+Test Method,TRUE,,1
+"Test Result
+","☐ positive 
+☐ negative 
+☐ inconclusive 
+☐ pending",,1
+Test Date,mm/dd/yyyy BREAKS PATTERN!,"dd/mm/yyyy*
+Specifically first lab confirmation test, and last lab test (if release from hospital/isolation)",2
+Results of National Microbiology Laboratory confirmatory testing:  (page 5),"☐ Not submitted 
+☐ Positive 
+☐ Negative 
+☐ Inconclusive 
+☐ Pending",,1
+Date of NML confirmation:,mm/dd/yyyy BREAKS PATTERN!,,1
+ADDITIONAL DETAILS/COMMENTS,TRUE,,1
+Specimen Type & Source,,,
+TO BE COMPLETED BY: The Public Health Agency of Canada,,,
+Date Received,mm/dd/yyyy BREAKS PATTERN!,,1
+PHAC Case ID,TRUE,Unique Case Identifier (used in country),2
+"If applicable, national outbreak ID",TRUE,,1

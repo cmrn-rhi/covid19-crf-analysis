@@ -1,0 +1,971 @@
+"Canadian National, Provincial, and Territorial COVID-19 Case Report Forms - Field and Data Structure Comparisons",,,,,,,
+LAST UPDATE: 2020-07-20,,,,,,,
+Field Name,Interim National,Quebec,Ontario,British Columbia,Manitoba,New Brunswick,North West Territories (Forms A/B)
+Form Information,"PHAC - Coronavirus Disease (COVID-19) Case Report Form [version 2 Last updated March 3, 2020]",QC - Declaration des cas confirmes et des cas cliniques de COVID-19 20-210-103W [2020],"ON - (Appendix 1) Ontario's SARI Case Report Form [April 15, 2020 version 7.0]","BC CDC - COVID-19 Case Report Form [Version Date: April 20, 2020]",MHSU-6683 COVID-19 Case Investigation Form [2020-05-05],NB - COVID-19 Combined Referral and Lab Requisition Form [V5 2020-04-09],"NWT - COVID-19 Report Form (Suspect Case/Person Under Investigation) Part A [Updated: April 27, 2020]"
+,,QC - Questionnaire d'enquete des cas de Coronavirus COVID-10 [version du: 2 avril 2020],,,,,"NWT COVID-19 Report Form (For All Cases) Part B [Updated: April 27, 2020]"
+Case Protected Information,,,,,,,
+CASE Information,,,,,,,
+First name,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Name (doesn't specify first)
+Middle name,,,,TRUE,,,Name (doesn't specify middle)
+Last name,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Name (doesn't specify last)
+Alternate name(s),,,,TRUE,TRUE,,
+Usual residential address,TRUE,Indicates whether address is residential or not.,TRUE,TRUE,TRUE,TRUE,
+City,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+Province/Territory,TRUE,,TRUE,TRUE,TRUE,,
+Canada,,,,,,,TRUE
+Postal code,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,
+Local Health Region,TRUE,,,," WRHA
+ NRHA
+ PMH
+ SH-SS
+ IERHA
+ FNIHB
+ CSC",,Community
+Phone number #1,TRUE,Landline,TRUE,TRUE,TRUE,TRUE,TRUE
+Phone number #2,TRUE,Cellular,TRUE,TRUE,,,
+Phone number #3,,Work number and extension,,,,,
+Email,,TRUE,,,,TRUE,"Could enter under ""best contact method"""
+Date of Birth,dd/mm/yyyy,YYYY-MM-DD,(dd/mm/yyyy),yyyy/mm/dd,YYYY-MM-DD,TRUE,YYYY/MMM/DD
+Racial/Ethnic Identity (Voluntary/Self-Reported),,,,," AFRICAN
+ FILIPINO
+ LATIN AMERICAN
+ CHINESE
+ NORTH AMERICAN INDIGENOUS
+ SOUTH ASIAN
+ WHITE
+ BLACK
+ SOUTHEAST ASIAN
+ DECLINED
+ OTHER (SPECIFY):",,
+Health Insurance Number,,TRUE,,,,,
+Health Card Number,,,,TRUE,TRUE,TRUE,
+Alternate ID (Spcify Type),,,,,TRUE,,
+Registration Number,,,,,TRUE,FALSE,
+Preferred Language,,,,,,☐ English ☐ French ☐ Other,
+Local Case ID,TRUE,,,Primary Access Regional Information System (PARIS) Client ID,TRUE,,
+P/T Case ID,TRUE,,,Panorama Investigation ID,TRUE,,
+Primary Care Provider,,,,,TRUE,TRUE,TRUE
+PCP Phone,,,,,,TRUE,
+PCP Location,,,,,,TRUE,
+Immediate Family Members,,"(First and last name, Date of Birth) x4",,,,,
+iPHIS Case ID:,,,TRUE,,,,
+Responsible Health Unit,,,TRUE,,,,
+Branch office:,,,TRUE,,,,
+Diagnosing Health Unit,,,TRUE,,,,
+14 day follow-up,,TRUE,,,,,
+"CASE DETAILS: DISEASE / AETIOLOGIC 
+AGENT / SUBTYPE",,,"□ Severe Acute Respiratory Infection
+□ Middle East respiratory syndrome
+coronavirus (MERS-CoV)
+□ COVID-19, Wuhan,China
+□ Other Novel Respiratory Pathogen
+Specify:_____
+□ Novel Influenza A
+        □ H1__ □ H3__ □ H5__ □ H7__
+        □ Other: __
+□ Novel Influenza B
+_____",,,,
+Proxy Information,,,,,,,
+Is respondent a proxy?,☐ No ☐ Yes,TRUE,☐ No ☐ Yes,"Infer from ""sources of information""",,,
+Last name,TRUE,TRUE,TRUE,,,,
+First name,TRUE,TRUE,TRUE,,,TRUE,
+Relationship to case,TRUE,"☐ The patient answered for themself
+☐ Mother
+☐ Father
+☐ Other/someone else answered for the patient
+-------------------------------
+☐ Mom
+☐ Father
+☐ Guardian",TRUE,,,TRUE,
+Phone number #1,TRUE,,TRUE,,,,
+Phone number #2,TRUE,,TRUE,,,,
+Phone number (Residential),,TRUE,,,,,
+Phone number (Mobile),,TRUE,,,,,
+"Phone number (Work, Ext.)",,TRUE,,,,,
+Email address,,TRUE,,,,,
+Source(s) of information,,,,"☐ Patient/family interview
+☐ Attending clinician
+☐ Hospital record
+☐ Other, specify:",,,
+Contact information for person reporting,,,,,,,
+Declarant Type,,"☐ Doctor/Physician
+----------------------------
+☐ Laboratory
+☐ Doctor
+☐ Identified by public DSP investigation",,,,,
+First and Last Names,TRUE,TRUE,Name,TRUE,Name,Name of individual completing form,Name
+Telephone #,TRUE,Establishment/Clinic Telephone #,TRUE,TRUE,TRUE,TRUE,
+Email,TRUE,,TRUE,TRUE,,,
+Fax #,,,,TRUE,,,
+Health Authority,,,,"☐ FHA
+☐ FNHA
+☐ IHA
+☐ NHA
+☐ VCH
+☐ VIHA",TRUE,,
+Establishment/Clinic Name where patient consulted,,TRUE,,,TRUE,,TRUE
+Establishment/Clinic City,,TRUE,,,TRUE,,
+Referral Date,,TRUE,,,TRUE,TRUE,
+Referral Request Details,,,,,,"☐ 811 ☐ Ambulance NB ☐ ICU ☐ Vitalité Zone 1 (Moncton) ☐ Horizon Zone 1 (Moncton) ☐ Hospital/ED
+☐ Zone 4 (Edmundston) ☐ Zone 2 (Saint John) ☐ Clinic/CHC
+☐ Zone 5 (Campbellton) ☐ Zone 3 (Fredericton) ☐ Correctional facility
+☐ Zone 6 (Bathurst) ☐ Zone 7 (Miramichi) ☐ Nursing Home
+☐ Public Health ☐ DH-Call Centre ☐ Other:
+☐ EMP ☐ Provider Office ",
+RSS Survey Code,,TRUE,,,,,
+Main Form,,,,,,,
+P/T Case ID,(duplicate of above field),,,,TRUE,,
+Reported Date,dd/mm/yyyy,TRUE,(dd/mm/yyyy),TRUE,TRUE,,YYYY/MMM/DD
+Date Report Received by health authority,,YYYY-MM-DD,,TRUE,TRUE,,
+License number of person reporting,,TRUE,,,,,
+Assessed in-person,,,,,,,TRUE
+Assessed in virtual care,,,,,,,TRUE
+Other Codes/IDS,,"V10 Code
+DSP Folder Code (Director of Professional Services)",,,,,
+Administrative Information,,,,,,,
+(Report Status),"☐ INITIAL REPORT 
+☐ UPDATED REPORT","☐ In progress
+☐ Finished
+☐ Lost in Follow-Up","☐ INITIAL REPORT 
+ ☐ UPDATED REPORT",, FOLLOW-UP COMPLETE  UNABLE TO COMPLETE INTERVIEW  PENDING,,"Infered from forms:
+Part A: To be completed for all COVID-19 Suspect Cases/PUI
+Part B: To be complete for all COVID-19 Confirmed, Epi-linked and Probable Cases"
+Status Validation Date,,YYYY-MM-DD,,,,,
+Reporting Province / Territory,BC / AB / SK / MB ...,"No field to declare, can only infer it is from Quebec from the form.
+----------------------------
+☐ Outside Quebec",,,,,Infered from form: NWT 
+Outbreak or cluster related? ,,,□ Yes □ No,,"☐ Yes
+☐ No
+☐ Unknown
+☐ Declined To Answer
+☐ Not Asked",,
+"If yes, local Outbreak #:",,,TRUE,,TRUE,,
+"Number of ill persons associated with the
+outbreak:",,,TRUE,,,,
+"For Provincial Use Only
+Has the outbreak been declared and made
+public? ",,,□Yes  □ No,,,,
+"If case is related to a provincial /territorial outbreak, 
+P/T Outbreak ID",,,TRUE,,,,
+Contact information for P/T person reporting,,,,,,,
+First Name,TRUE,,,,TRUE,,Name (doesn't specify first) duplicate of above
+Last Name,TRUE,,,,TRUE,,Name (doesn't specify last) duplicate of above
+Email,TRUE,,,,,,
+Telephone #,TRUE,,,,TRUE,,
+Reason for testing,"☐ Individual sought healthcare 
+☐ Contact of a case 
+☐ Routine respiratory disease surveillance 
+☐ Other, specify:",,,,,,"☐ Individual sought health care
+☐ Routine respiratory disease surveillance
+☐ Contact of a case
+☐ Other, Specify:"
+Surveillance Case Classification,"☐ Confirmed 
+☐ Probable 
+☐ Person Under Investigation 
+☐ Does not meet","☐ Confirmed Case
+☐ Clincal Case 
+---------------------------------
+☐ Confirmed Case
+☐ Case Confirmed by Epidemiological link
+☐ Probable Case
+☐ Contact","☐ Confirmed 
+ ☐ Presumptive Confirmed
+ ☐ Probable","☐ Confirmed
+☐ Probable
+☐ Person Under Investigation
+☐ Not a Case","☐ Lab Confirmed 
+☐ Probable 
+☐ Not A Case",,
+Most Likely Acquisition Type (Staging),,,,,"☐ Travel Acquired
+☐ Close Contact of Known Case
+☐ Unknown",,
+Case Details,,,,,,,
+Residency,"☐ Canadian resident 
+☐ Non-Canadian Resident, Country","Quebec resident, if not will be required to depart before isolation period is up.",,TRUE,,,
+Detected at point of entry?,☐ No ☐ Yes,,,,,,
+Location of entry,TRUE,,,,,,
+Date of entry,dd/mm/yyyy,,,,,,
+Gender,"☐ Male ☐ Female 
+☐ Other ☐ Unknown","☐ Male
+☐ Female
+☐ Other
+-----------------------------
+☐ Male
+☐ Female","☐ Male ☐ Female 
+ ☐ Unk ☐ Other","☐ Male
+☐ Female
+☐ Undifferentiated
+☐ Unknown"," FEMALE  MALE
+ INTERSEX   UNKNOWN",☐ Male ☐ Female ,"☐ M
+☐ F
+☐ X"
+Age ,integer,TRUE,TRUE,Would have to infer from DOB,,TRUE,
+Guardian Name if age<16,,,,,,TRUE,
+If under 2 Years,,,______months □ Unk,,,,
+Age unit,☐ years ☐ months,,,,,,
+Received current season's flu vaccine (self-reported)?,,,,,TRUE,,"☐ Yes
+☐ No
+☐ Unknown"
+Does the case identify as Indigenous?,"☐ Yes ☐ No  
+☐ Refused to Answer ☐ Unknown","☐ Yes
+☐ No
+☐ Unknown","Aborignal:
+ ☐ Yes ☐ No 
+ ☐ Refused to Answer ☐ Unk","☐ Yes
+☐ No
+☐ Asked, not provided
+☐ Non-BC Resident
+☐ Not asked",TRUE,,
+"If yes, indicate which group","☐ First Nations ☐ Metis ☐ Inuit 
+☐ Refused to Answer ☐ Unknown","☐ First Nations
+☐ Inuit
+☐ Unknown",☐ First Nations ☐ Metis ☐ Inuit,"☐ Asked, but unknown
+☐ Asked, not provided
+☐ First Nations
+☐ First Nations and Inuit
+☐ First Nations and Métis
+☐ First Nations, Inuit and Métis
+☐ Inuit
+☐ Inuit and Métis
+☐ Métis
+☐ Not asked", FIRST NATIONS  INUIT   MÉTIS   DECLINED,,
+First Nations Status,,,,, STATUS  NON-STATUS   DECLINED,,
+Indigenous organization,,,,TRUE,,,
+Does the case reside on a First Nations Reserve most of the time?,"☐ Yes ☐ No 
+☐ Refused to Answer ☐ Unknown","☐ Yes
+☐ No
+☐ Unknown","☐ Yes ☐ No 
+ ☐ Refused to Answer ☐ Unknown",,TRUE,TRUE,
+Vulnerable group,,"☐ Native
+☐ Member of a religious community
+☐ Homeless
+☐ Other
+Specify: ___",,,,,"☐ Resident of LTC/Institution:
+  ☐ Experiencing Homelessness
+  ☐ Other, specify:"
+Patient lives at home,,TRUE,,,TRUE,,
+Is the patient a resident of a long-term care facility?,,TRUE,,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",TRUE,,
+Patient lives in closed environment,,"☐ Hospital centre
+☐ Residential and long-term care centre
+☐ Private seniors' residence
+☐ Intermediate resource (IR)
+☐ Family-type intermediate resource (FTR)
+☐ Community accommodation
+☐ Rehab center
+☐ Prison
+☐ Religious congregation
+☐ Other
+Contact: ____",,,,,
+Environment Information,,"Name, Address, City, Postal Code, Professional Contact, Telephone, Extension, Email Address",,,"☐ ANIMAL HANDLER (FARMER,VET,ABBATOIR,ETC.)
+☐ CHILD CARE (WORK/VOLUNTEER/ATTENDEE)
+☐ CORRECTIONAL CENTER (RESIDENT)
+☐ CORRECTIONAL CENTER (WORK/VOLUNTEER) 
+☐ HEALTH CARE FACILITY (RESIDENT/PATIENT)
+☐ HEALTH CARE FACILITY (WORK/VOLUNTEER)
+☐ PERSONAL CARE HOME (RESIDENT)
+☐ PERSONAL  CARE HOME  (WORK/VOLUNTEER)
+☐ SHELTER (RESIDENT)
+☐ SHELTER (WORK/VOLUNTEER) 
+☐ LABORATORY WORKER
+☐ OTHER CONGREGATE SETTING (WORK/VOLUNTEER/RESIDENT, SPECIFY)",,
+Case is (professional role),"☐ Healthcare worker/volunteer with direct patient contact
+☐ Laboratory worker handling biological specimens
+☐ Veterinary/animal worker
+☐ School or daycare worker/attendee
+☐ Farm worker
+☐ Resident of long-term care facility/institutional facility
+☐ Other, specify: _______________________",,"□ Resident in an institutional facility (dormitory, shelter/group home, prison, etc. ) 
+□ Laboratory worker handling biological specimens 
+□ Veterinary worker 
+□ School or daycare worker/ attendee 
+□ Farm worker 
+□ Resident of a retirement residence or long-term care facility 
+□ Other:",,(Reference 'Environment Information'),,"☐ Health Care Worker
+☐ School/daycare worker OR attendee
+☐ Lab worker/handles biological specimens"
+Did the patient work outside the home in the two weeks before symptoms started?,,"☐ Yes
+☐ No
+☐ Unknown",,,TRUE,,
+"In the 48 hours before the onset of symptoms, did the patient have close and prolonged contact during work? if yes, identify occupation",,"☐ Yes
+☐ No
+☐ Unknown",,,TRUE,,
+Healthcare worker,,"☐ Yes
+☐ No
+☐ Unknown","□ Health care worker  or 
+health care volunteer","☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",TRUE,,☐ Health Care Worker
+"if yes,",,"☐ Hospital centre
+☐ Residential and long-term care centre
+☐ Local Community Service Centre - Routine service
+☐ Local Community Service Centre - Home Support
+☐ Private seniors' residence
+☐ Intermediate resource
+☐ Family-type intermediate resource
+☐ First responder
+☐ Laboratory
+☐ Unknown","If yes, with direct patient
+contact? 
+□ Yes □ No □ Unk
+
+","☐ Nurse
+☐ Physician
+☐ Laboratory technician
+☐ Emergency medical personnel
+☐ Housekeeping
+☐ Administrative
+☐ Dental professional
+☐ Licensed practical nurse (LPN)
+☐ Care aide
+☐ Kitchen staff
+☐ Volunteer
+☐ Student (medical, dental, nursing, lab)
+☐ Other, specify:",,"☐ EM/ANB 
+☐ First Responder 
+☐ NH/LTC/ARF 
+☐ Physician Office 
+☐ Childcare centre 
+☐ Horizon 
+☐ Vitalité 
+☐ Hospital 
+☐ Lab 
+☐ Clinic 
+☐ Community Health Centre 
+☐ Community Pharmacy
+☐ Other ",
+Worksite(s),,TRUE,,TRUE,,,
+School or daycare worker,,"☐ Yes
+☐ No
+☐ Unknown",,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",,,☐ School/daycare worker OR attendee
+School or daycare attendee,,,,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",,,(duplicate of above)
+Other worker,,"☐ Yes
+☐ No
+☐ Unknown",,,(Reference 'Environment Information'),,
+Worker providing essential services,,"☐ Yes
+☐ No
+☐ Unknown",,,(Reference 'Environment Information'),,
+Worker at risk of outbreak,,"☐ Yes
+☐ No
+☐ Unknown",,,,,
+if yes,,"☐ Private seniors' residence
+ ☐ Prison
+ ☐ Hospital centre
+ ☐ Residential and long-term care centre
+ ☐ Trade with customer service
+ ☐ Other",,,,,
+"Description of the job or main task (e.g. nurse, cook, police)",,TRUE,,,,,
+Worker in direct contact with customers?,,"☐ Yes
+☐ No
+☐ Unknown",,,,,
+Workplace name,,TRUE,,,,,
+Workplace address,,TRUE,,,,,
+Workplace contact name,,TRUE,,,,,
+Workplace contact phone #,,TRUE,,,,,
+Risk Level,,"☐ High
+ ☐ Moderate
+ ☐ Low",,,,,
+Symptoms,,,,,,,
+Symptom Onset Date,mm/dd/yyyy BREAKS PATTERN!,YYYY-MM-DD,(dd/mm/yyyy),yyyy/mm/dd,YYYY/MMM/DD,TRUE,YYYY/MMM/DD
+Symptom Onset Time (if applicable),,,,,HH:MM,,
+Estimated,,,,,TRUE,,
+Asymptomatic,☐ Asymptomatic,TRUE,□ No Symptoms,TRUE,TRUE,,☐ Asymptomatic
+Contagious Period,,"From (Date of Symptom Onset) ___ + 14 days
+To YYYY-MM-DD",,,,,
+Symptom,,,,,,,
+Cough,"☐ Yes ☐ No ☐ Unknown 
+☐ Not asked/assessed","☐ Yes
+☐ No
+☐ Unknown",TRUE,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed","☐ Cough, Dry
+☐ Cough, Productive","☐ New onset/exacerbation of chronic cough
+",☐ Cough
+Fever (≥38°C),"""","""",TRUE,"☐ Yes
+ if yes, specify the highest temperature recorded: _____ ºC
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",☐ Fever (>38°C),TRUE,"☐ Fever (Temperature, if known:   )"
+Feverish/chills (temperature not taken),"""","""",TRUE,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",☐ Chills,,
+Sore throat,"""","""",TRUE,"""",TRUE,TRUE,☐ Sore Throat
+Runny nose,"""","""",Rhinorrhea/nasal congestion,"""",TRUE,,☐ Rhinorrhea
+Shortness of breath/difficulty breathing,"""","""",TRUE,"""",TRUE,,☐ Dyspnea
+Nausea/vomiting,"""","""","□ Nausea
+ □ Vomiting","""",☐ Vomiting,,
+Headache,"""","""",TRUE,"""",TRUE,TRUE,☐ Headache
+General weakness,"""","""",,"""",TRUE,,
+"Pain (muscular, chest, abdominal, joint, etc.)","""","""","□ Abdominal pain
+ □ Chest pain","""",TRUE,,
+Arthralgia (painful joints),,,TRUE,"""",,,
+Myalgia (muscle pain),,,TRUE,"""",TRUE,,☐ Myalgia
+Irritability/confusion,""" (page 3)","""",,"""","☐ Confusion, Altered Mental State",,
+Diarrhea,"""","""",TRUE,"""",TRUE,,☐ Diarrhea/vomiting
+"Other, specify","""",TRUE,TRUE,"""",TRUE,,"☐ Other, specify:"
+"Brutal anosmia without nasal obstruction, with or without ageusia",,"☐ Yes
+☐ No
+☐ Unknown",,,TRUE,,☐ Ansomia
+Fatigue,,,□ Fatigue/prostration,,TRUE,,☐ Fatigue
+Malaise,,,□ Malaise/chills,,TRUE,,☐ Malaise
+Sputum production,,,TRUE,,,,
+Swollen lymph nodes,,,TRUE,,,,
+Sneezing,,,TRUE,,,,
+Conjunctivitis,,,TRUE,,,,
+Otitis,,,TRUE,,,,
+Anorexia/decreased appetite,,,TRUE,,,,
+Nose bleed,,,TRUE,,,,
+Rash,,,TRUE,,,,
+Seizures,,,TRUE,,TRUE,,
+Dizziness,,,TRUE,,,,
+Coryza,,,,,,TRUE,
+PRE-EXISTING CONDITIONS and RISK FACTORS,,,,,,,
+Cardiac disease,☐ Yes ☐ No ☐ Unknown ☐ Not asked,"☐ Yes
+☐ No
+☐ Unknown","☐ Yes ☐ No ☐ Unk
+ If yes, please specify:","☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,TRUE,☐ Yes ☐ No ☐ Not asked
+Chronic neurological or neuromuscular disorder,"""","""","Neurologic Disorder
+ If yes, please specify:
+ □Neuromuscular
+ Disorder
+ □Epilepsy
+ □Other:_______","""",TRUE,,☐ Yes ☐ No ☐ Not asked
+Diabetes,"""","""","Metabolic Disease
+ If yes, please specify:
+ □ Yes □ No □ Unk
+ □ Diabetes
+ □ Obese (BMI > 30)
+ □ Other:________","""",☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,TRUE,☐ Yes ☐ No ☐ Not asked
+Immunodeficiency disease/condition,"""",Immunosuppressed,"☐ Yes ☐ No ☐ Unk
+ If yes, please specify:","""",☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,,☐ Yes ☐ No ☐ Not asked
+Liver Disease,"""","☐ Yes
+☐ No
+☐ Unknown","Hepatic Disease ""☐ Yes ☐ No 
+☐ Unk If yes, please specify:""","""",☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,,☐ Yes ☐ No ☐ Not asked
+Malignancy,"""",,"☐ Yes ☐ No ☐ Unk
+ If yes, please specify:","""",,,☐ Yes ☐ No ☐ Not asked
+Post-partum (≤6 weeks),"""","""",☐ Yes ☐ No ☐ Unk,"""",,,☐ Yes ☐ No ☐ Not asked
+Pregnancy,"""","""",☐ Yes ☐ No ☐ Unk,"""",TRUE,"☐ Yes ☐ No
+",☐ Yes ☐ No ☐ Not asked
+"If yes, trimester",1st / 2nd / 3rd,,"If yes, week gestation:",TRUE,,,TRUE
+Specify EDC,,,,,YYYY-MM-DD,,
+Renal Disease,"""","""","☐ Yes ☐ No ☐ Unk
+ If yes, please specify:","""",☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,,☐ Yes ☐ No ☐ Not asked
+Age 60+,,,,,,TRUE,
+Respiratory Disease,"""","Respiratory illness (e.g. emphysema, chronic bronchitis)","Respiratory Disease
+ If yes, please specify:
+ □Asthma
+ □Tuberculosis
+ □Other:_______","""",☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,TRUE,☐ Yes ☐ No ☐ Not asked
+Hypertension,,"☐ Yes
+☐ No
+☐ Unknown",,,☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,TRUE,
+Cancer,,"""",,"""",,TRUE,
+"Other, specify",,TRUE,,,☐ Yes ☐ No ☐ Unknown ☐ Declined To Answer ☐ Not Asked,TRUE,
+Additional Information,,,,,,TRUE,
+Chronic health condition,,,"☐ Yes ☐ No ☐ Unk
+ If yes, please specify:",,TRUE,,"☐ Yes ☐ No ☐ Not asked
+If yes, specify:"
+Hemoglobinopathy/Anemia,,,"☐ Yes ☐ No ☐ Unk
+ If yes, please specify:",,,,
+Receiving immunosuppressing medications,,,"☐ Yes ☐ No ☐ Unk
+ If yes, please specify:",,,,
+Substance use,,TRUE,TRUE,,TRUE,,
+Smoking,,TRUE,"☐ Yes
+☐ No
+☐ Unknown",,☐ Yes ☐ No ☐ Asked but Unknown ☐ Declined to Answer ☐ Not Assessed,,
+Vaping,,,,,☐ Yes ☐ No ☐ Asked but Unknown ☐ Declined to Answer ☐ Not Assessed,,
+Other (specify,,,,,☐ Yes ☐ No ☐ Asked but Unknown ☐ Declined to Answer ☐ Not Assessed,,
+None Identified,,,TRUE,,,,
+Severe obesity,,"☐ Yes
+☐ No
+☐ Unknown",,,,,
+"CLINICAL EVALUATIONS, COMPLICATIONS, and DIAGNOSES",,,,,,,
+Date of first presentation to medical care,,, (dd/mm/yyyy),,,,
+Meningismus/nuchal rigidity,,,TRUE,,,,
+"Arrhythmia",,,TRUE,,,,
+Abnormal lung auscultation,☐ Yes ☐ No ☐ Unknown ☐ Not assessed,"☐ Yes
+☐ No
+☐ Unknown",,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",,,☐ Yes ☐ No ☐ Not asked
+Altered mental status,"""","""",TRUE,"""","☐ Confusion, Altered Mental State",,☐ Yes ☐ No ☐ Not asked
+Clinical or radiological evidence of pneumonia,"""","""",TRUE,,☐ Pneumonia,,☐ Yes ☐ No ☐ Not asked
+Coma,"""","""",,"""",,,☐ Yes ☐ No ☐ Not asked
+Conjunctival injection,"""",,,"""",,,☐ Yes ☐ No ☐ Not asked
+Diagnosed with Acute Respiratory Distress Syndrome,"""","""",TRUE,"""",☐ Acute Respiratory Distress Syndrome,,☐ Yes ☐ No ☐ Not asked
+O2 saturation <95%,"""","""",TRUE,"""",,,
+Encephalitis,"""","""",TRUE,"""",TRUE,,☐ Yes ☐ No ☐ Not asked
+Hypotension,"""","""",TRUE,"""",,,☐ Yes ☐ No ☐ Not asked
+Neonatal complications,,"""",,,,,
+Pharyngeal exudate,"""",,,"""",,,☐ Yes ☐ No ☐ Not asked
+Pregancy Complications and unfavorable issues,,"""",,,,,
+Renal failure,"""","""",TRUE,"""",☐ Renal Failure,,☐ Yes ☐ No ☐ Not asked
+Seizure,"""",,,"""",☐ Seizure,,☐ Yes ☐ No ☐ Not asked
+Sepsis,"""","""",TRUE,"""",☐ Septicemia or Sepsis,,☐ Yes ☐ No ☐ Not asked
+Tachypnea (accelerated respiratory rate),"""","""",TRUE,"""",,,☐ Yes ☐ No ☐ Not asked
+"Other, specify",TRUE,"""",TRUE,"""",,,☐ Yes ☐ No ☐ Not asked
+Convulsions,,"""",,,,,
+CLINICAL COURSE and OUTCOMES (complete if applicable) (Page 4),,,,,,,
+Patient Setting,,,,,,,"☐ Physician office/clinic
+☐ ED (not admitted)
+☐ Inpatient (ward)    admission date:
+☐ Inpatient (ICU)      admission date:
+☐ Home visit
+☐ Self-Isolation
+☐ Facility (LTC, Corrections)
+    Specify:
+☐ Experiencing Homelessness"
+Hospitalization,☐ Yes ☐ No ☐ Unknown ,☐ Yes ☐ No ☐ Unknown ,☐ Yes ☐ No ☐ Unk,☐ Yes ☐ No ☐ Unknown ,TRUE,,☐ Inpatient (ward) duplicate of above
+ H. Admission date,TRUE,YYYY-MM-DD,(dd/mm/yyyy),yyyy/mm/dd,TRUE,,YYYY/MMM/DD
+ H. Discharge date,TRUE,YYYY-MM-DD,(dd/mm/yyyy),yyyy/mm/dd,TRUE,,
+Discharge date 2 ,,,(dd/mm/yyyy),,,,
+Case Discharged from Hospital ,,,☐ Yes ☐ No ☐ Unk,,,,
+Case Transferred to another hospital,,,☐ Yes ☐ No ☐ Unk,,,,
+Re Admission Date,,,(dd/mm/yyyy),,,,
+Diagnosis at time of admission: ,,,TRUE,,,,
+Intensive Care Unit (ICU),☐ Yes ☐ No ☐ Unknown,☐ Yes ☐ No ☐ Unknown ,☐ Yes ☐ No ☐ Unk,☐ Yes ☐ No ☐ Unknown ,TRUE,,☐ Inpatient (ICU) duplicate of above
+ ICU Start Date,TRUE,YYYY-MM-DD,(dd/mm/yyyy),yyyy/mm/dd,TRUE,,YYYY/MMM/DD
+ ICU End Date,TRUE,YYYY-MM-DD,(dd/mm/yyyy),yyyy/mm/dd,TRUE,,
+Isolation (e.g. negative pressure),☐ Yes ☐ No ☐ Unknown,"Home Isolation:
+☐ Yes ☐ No ☐ Unknown ","Patient isolated in hospital?
+☐ Yes ☐ No ☐ Unk
+If yes, specify type of isolation (e.g., respiratory
+droplet precaution, negative
+pressure):______________________",,"☐ Facility Isolation
+☐ Home Isolation
+☐ Self Isolation (Other Location)",,"Self-isolation advice given
+☐ Yes ☐ No
+----------------------------------------
+☐ Self-Isolation"
+ Isolation Start Date,TRUE,YYYY-MM-DD,,,TRUE,,
+ Isolation End Date,TRUE,YYYY-MM-DD,,,TRUE,,
+Location if isolation is at different address than home,,,,,TRUE,,
+Supplemental oxygen therapy,,,☐ Yes ☐ No ☐ Unk,,,,
+Mechanical ventilation,☐ Yes ☐ No ☐ Unknown,☐ Yes ☐ No ☐ Unknown ,☐ Yes ☐ No ☐ Unk,☐ Yes ☐ No ☐ Unknown ,TRUE,,
+"If yes, number of days on ventilation",,,TRUE,,,,
+ MV. Start Date,TRUE,YYYY-MM-DD,,,TRUE,,
+ MV. End Date,TRUE,YYYY-MM-DD,,,TRUE,,
+Chest X-ray,,,,☐ Yes ☐ No ☐ Unknown ,,,"YYYY/MMM/DD
+"
+Chest X-ray summary,,,,TRUE,,,"☐ Not Applicable
+☐ No abnormalities suggestive of COVID-19
+☐ Evidence of lower respiratory tract infection"
+Physician diagnosis at time of this report,,,,"☐ Pneumonia / bronchitis
+☐ Other, Specify:",,,
+"Current Disposition
+*Definition: resolution of symptoms followed by two negative tests at least 24 hours apart","☐ Recovered* ☐ Stable 
+☐ Deteriorating ☐ Deceased","☐ Recovered
+ ☐ Stable
+ ☐ Deteriorated
+ ☐ Deceased","""☐ Recovered* ☐ Stable 
+☐ Deteriorating ☐ Deceased""","☐ Fully Recovered
+☐ Not yet recovered/recovering
+☐ Fatal if died, date of death
+☐ Permanent disability
+☐ Unknown
+☐ Other, specify:","☐ Fatal
+☐ Home Isolation
+☐ Hospitalization
+☐ ICU
+☐ Mechanical Ventilation
+☐ Recovered
+☐ Unknown
+-------------------------------------
+☐ Follow-Up Performed by Region
+☐ Follow Up Performed by Call Centre
+☐ Follow Up Complete",,"☐ Stable
+☐ Deceased
+☐ Deteriorating"
+Disposition date,mm/dd/yyyy BREAKS PATTERN!,YYYY-MM-DD,(dd/mm/yyyy),(duplicate of report date),YYYY-MM-DD to YYYY-MM-DD (if applicable),,
+Location / Address (if Applicable),,,,,TRUE,,
+If deceased,,,,,,,
+post-mortem:,,,"□ Performed □ Pending 
+□ None □ Unk",,,,
+Death attributed/linked to respiratory illness?,☐ Yes ☐ No ☐ Unknown,☐ Yes ☐ No ☐ Unknown,"Respiratory illness contributed to 
+the cause of death?
+☐ Yes ☐ No ☐ Unk","☐ Contributed but wasn't underlying cause
+☐ Did not contribute to death/incidental
+☐ Underlying cause of death
+☐ Unknown
+☐ Other, specify:",,,
+Respiratory illness was the underlying cause of death?,,,☐ Yes ☐ No ☐ Unk,,,,
+Cause of death (as listed on death certificate),TRUE,TRUE,TRUE,,,,TRUE
+Date of Death,mm/dd/yyyy BREAKS PATTERN!,YYYY-MM-DD,,yyyy/mm/dd,,,YYYY/MMM/DD
+Notes,,TRUE,,,,,
+EXPOSURES (add additional details in the comments section as necessary),,,,,,,
+"In the 14 days prior to symptom onset, did the case travel outside of their province/territory of residence or outside of Canada?","☐ Yes 
+☐ No 
+☐ Refused to Answer 
+☐ Unknown","☐ Yes
+☐ No","☐Yes 
+☐No 
+☐ Unk","☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed","☐ Yes
+☐ No
+☐ Unknown
+☐ Declined To Answer
+☐ Not Asked",☐ Travelled outside of New Brunswick within past 14 days,
+"If yes, specify the following
+(REPEATABLE)",,,,,,,
+Departure Country,(city/country),TRUE,"country/city, City of Origin",,TRUE,,TRUE
+"Destination
+Country",(city/country),TRUE,Country/City Visited (For trips 1 and 2),TRUE,TRUE, (Location),
+Start Date,(mm/dd/yyyy),Date of departure from Quebec (YYYY-MM-DD),Dates of travel,,TRUE,,YYYY/MMM/DD
+End Date,(mm/dd/yyyy),Date of arrival in Quebec (YYYY-MM-DD),Dates of travel,TRUE,TRUE,TRUE,YYYY/MMM/DD
+Date of Arrival in Province,,Date of arrival in Quebec (YYYY-MM-DD),,,,,
+Date of Departure from Province,,Date of departure from Quebec (YYYY-MM-DD),,,,,
+Hotel/Residence,TRUE,TRUE,TRUE,,TRUE,,
+"In the 14 days prior to symptom onset, did the case travel on a plane or other public carrier(s)?",,TRUE,"☐Yes 
+☐No 
+☐ Unk",,"Cruise, Plane, Other mode of transportation",,
+"Flight/Carrier Details
+(carrier name, 
+flight #, seat #)",TRUE,"For any trip outside the region, province, country, involving a public transport (bus, boat, plane): 
+transport company, flight no., route no., seat no., etc.","Flight /Carrier #, Carrier
+Name, Seat #, Travel type",,TRUE,,
+Was the case in close contact* with a symptomatic confirmed or probable case in the 14 days prior to symptom onset?,"☐ Yes 
+☐ No 
+☐ Unknown","Symptom onset irrelevant
+☐ Yes
+☐ No
+☐ Unknown
+(within 2 meters or 6 feet, more than 15 mins in total)",TRUE,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed","☐ Yes
+☐ No
+☐ Unknown
+☐ Declined To Answer
+☐ Not Asked
+
+If yes, provide brief description",TRUE,
+"If yes, complete the following (REPEATABLE)",,,,,,,
+Case ID(s),TRUE,TRUE,"A confirmed case of the same disease?
+□ Yes □ No □ Unk
+If yes, specify the Case ID:_________
+
+A probable case of the same disease?
+□ Yes □ No □ Unk
+If yes, specify disease:___________ and specify the
+Case ID:_________","Panorama Investigation ID or Case identifiers (e.g., name, PHN)",TRUE,,
+V10 number,,TRUE,,,,,
+Date of First Contact,(mm/dd/yyyy),,,yyyy/mm/dd,YYYY-MM-DD,,
+Sustained contact,☐ Y ☐ N ☐ DK,,,"☐ Yes
+☐ No
+☐ UK",TRUE,,
+Date of Last Contact,(mm/dd/yyyy),TRUE,,yyyy/mm/dd,YYYY-MM-DD,,
+Contact Setting Comments,"☐ Healthcare setting
+☐ Family Setting
+☐ Work place
+☐ Unknown
+☐ Other, specify ______","☐ Not investigated
+ ☐ Family
+ ☐ Residential and long-term care centre
+ ☐ Private seniors' residence
+ ☐ Hospital centre
+ ☐ Other healthcare setting
+ ☐ Prison
+ ☐ School
+ ☐ Nursery
+ ☐ Workplace
+ ☐ Transport 
+ ☐ Other",,"☐ Household
+☐ Workplace
+☐ Health care
+☐ Unknown
+☐ Other, specify:",TRUE,,
+Name of Environment/Location,,TRUE,,,,,
+Name of contact,,TRUE,,,,,
+comments,,,,TRUE,,,
+Case known to have traveled outside Canada,,"☐ Yes
+ ☐ No
+ ☐ Unknown",,,,,
+"Was the case in close contact* with a person with fever and/or cough who has been to an affected area** in the 14 days prior to their illness onset?
+* close contact is defined as a person who provided care for the patient, including healthcare workers, family members or other caregivers, or who had other similar close physical contact OR who lived with or otherwise had close prolonged contact with a probable or confirmed case while the case was ill.
+(REPEATABLE)",☐ Yes ☐ No ☐ Unknown (page 5),,"A person who had fever, respiratory symptoms
+ like cough or sore throat, 
+or respiratory illness like pneumonia
+
+□ Yes □ No □ Unk",,"Contact with someone with similar illness within 14 days of symptom onset:
+☐ Yes
+☐ No
+☐ Unknown
+☐ Declined To Answer
+☐ Not Asked",,
+Date of last contact,(mm/dd/yyyy),,,,YYYY-MM-DD to YYYY-MM-DD,,
+"If yes, specify the type of contact:",,,"□ Household member
+□ Person who works in a healthcare setting
+□ Works with Patients
+□ Person who works with animals
+□ Person who travelled outside of Canada
+□ Person who works in a laboratory
+□ Other (specify):_______________",,,,
+"If yes, specify contact setting
+","☐ Healthcare setting
+☐ Family Setting
+☐ Work place
+☐ Unknown
+☐ Other, specify",,"□ In a household setting
+□ School/daycare
+□ Farm
+□ Other (please specify)
+□ In a health care setting (e.g., hospital, long-term care
+home, community provider’s office)
+□ Other institutional setting (dormitory, shelter/group
+home, prison, etc.)
+□ In means of travel (place, train, etc.)",,TRUE,,
+"Exposure occurred in Canada
+","☐ Yes
+☐ No , specify _____
+☐ Unknown",,,,TRUE,,
+"In the 14 days prior to symptom onset, was this client exposed to a known cluster or outbreak (e.g. communal setting with cases, community cluster.)?",,"☐ Yes
+ ☐ No
+ ☐ Unknown",,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",,,
+"Setting type:
+",,TRUE,,"☐ Acute care facility
+☐ Long term care facility
+☐ Assisted living
+☐ Independent living
+☐ Group home (community living)
+☐ Other residential facility type, specify:
+☐ Correctional facility
+☐ School or daycare
+☐ Shelter
+☐ Conference
+☐ Workplace not otherwise specified
+☐ Other, specify:",,,
+Location Name,,TRUE,,,,,
+Role/group,,,,"☐ Staff
+☐ Resident / patient
+☐ Inmate
+☐ Student
+☐ Other, specify:",,,
+Cluster/outbreak name,,TRUE,,TRUE,,,
+Start date,,,,yyyy/mm/dd,,,
+End date,,,,yyyy/mm/dd,,,
+"In the 14 days prior to symptom onset, did the case have contact with live animals (not considered household pets) or animal products in any of the affected areas**? 
+
+This includes direct contact with animals, or contact with their feces or urine, soiled bedding/litter, or contact with other animal products (e.g. organs, exotic meats)",☐ Yes ☐ No ☐ Unknown,,□ Yes □ No □ Unk,,"☐ Yes
+☐ No
+☐ Unknown
+☐ Declined To Answer
+☐ Not Asked",,
+"If yes, specify what animals or animal products that you had contact with",TRUE,,"□ Cat(s) □ Dogs □ Horses □ Cows 
+□ Poultry □ Sheep / Goat □ Wild Birds □
+Rodents □ Swine □ Camel □ Snakes/ reptiles
+□Wild game (eg. Deer) □ Bats □ Other:_____________________",,TRUE,,
+"If yes, specify date of last direct contact: ",,, (dd/mm/yyyy),,YYYY-MM-DD to YYYY-MM-DD,,
+Did the animal display any symptoms of illness or was the animal dead?,,,□ Yes □ No □ Unk,,,,
+"If yes, where
+
+","☐ Home
+☐ Work
+☐ During travel
+☐ Live animal market",,"□ Home □ Work (fill in occupational section)
+□ Agricultural fair or event/petting zoo
+□ Outdoor work/recreation (camping, hiking, hunting etc.) 
+□ Other:_________",,,,
+Specify city,TRUE,,,,,,
+"In the 14 days prior to symptom onset, did the case have indirect contact with animals?",,,□ Yes □No □ Unk,,,,
+"If yes, specify date of last indirect contact",,, (dd/mm/yyyy),,,,
+Where did the indirect contact occur? ,,,"□ Home □ Work (fill in occupational section) 
+□ Agricultural fair or event/petting zoo
+□ Outdoor work / recreation (camping, hiking, hunting, etc.)
+□ Market where animals, meats and/or animal products are sold
+□ Other:",,,,
+Total number of contacts identified for this case,integer,,,TRUE,TRUE,,
+unknown,☐ Unknown,,,☐ Unknown,TRUE,,
+"In the 14 days prior to symptom onset, did the case have indirect contact with animals?",,,□ Yes □No □ Unk,,,,
+"If yes, specify date of last indirect contact",,, (dd/mm/yyyy),,,,
+Where did the indirect contact occur? ,,,"□ Home □ Work (fill in occupational section) 
+□ Agricultural fair or event/petting zoo
+□ Outdoor work / recreation (camping, hiking, hunting, etc.)
+□ Market where animals, meats and/or animal products are sold
+□ Other:",,,,
+"Was there an event or location at which this client may have exposed 25 or more contacts?",,,,"☐ Yes
+☐ No
+☐ Unknown",TRUE,,
+"if yes, event name",,,,TRUE,TRUE,,
+Event date,,,,yyyy/mm/dd,TRUE,,
+Event Location,,,,TRUE,TRUE,,
+"Close contact with a person with acute respiratory
+illness/group exposure in last 14 days",,,,Yes? Does have equivalent for confirmed covid-19 case and for group exposure event.,TRUE,TRUE,
+"Lab exposure to biological material (e.g. primary clinical specimens, virus culture isolates) known to contain COVID (SARS-CoV-2)",,,,"☐ Yes
+☐ No
+☐ Asked but Unknown
+☐ Declined to Answer
+☐ Not Assessed",,TRUE,
+"If the case has not traveled, has not had contact with a confirmed case, is not associated with an outbreak",,,,,,,
+"During the 14 days preceding the symptoms, the case frequented environments where he would have been in contact with symptomatic people",,"☐ Yes (Suspected circles)
+☐ No (No source of acquisition suspected)",,,,,
+"if yes, Social Circles",,"☐ Care environment, Hospital centre
+☐ Care environment, Residential and long-term care centre
+☐ Care environment, 
+☐ Work environment
+☐ School environment
+☐ Childcare
+☐ Public transport
+☐ Other
+
+In Response to each: ☐ Yes, ☐ No, ☐ Unknown, Details (middle name)",,,,,
+Further information on suspected cases,,TRUE,,,,,
+"LABORATORY INFORMATION (microbiology / virology / serology) (complete if applicable)
+(REPEATABLE)",,,,,,,
+Lab ID,TRUE,Analysis Laboratory Name,TRUE,TRUE,,,
+Specimen Collection Date,(mm/dd/yyyy),TRUE,TRUE,(yyyy/mm/dd),,(yyyy/mo/dd),YYYY/MMM/DD
+Time,,,,,,TRUE,
+Collected By,,Sampling Center Name and RSS,,,,TRUE,
+Specimen Type & Source,TRUE,,TRUE,"☐ Upper respiratory (e.g., Nasopharyngeal or oropharyngeal swab)
+☐ Lower respiratory (e.g., sputum, tracheal aspirate, BAL, pleural fluid)
+☐ Other, Specify:",,"Sample source: 
+☐ Throat 
+☐ Nasopharyngeal 
+☐ Other","☐ NP swab
+☐ Throat swab
+☐ Sputum
+☐ Other (e.g. BAL), specify: "
+Sentinal Site,,,,,," ☐ Yes
+☐ No
+Specify: 
+☐ Admission 
+☐ ED",
+Contact case,,,,,," ☐ Yes
+☐ No",
+Test of Cure,,,,,," ☐ Yes
+☐ No",
+Test Method,TRUE,,TRUE,,,,
+"Test Result
+","☐ positive 
+☐ negative 
+☐ inconclusive 
+☐ pending","☐ Confirmed Case*
+Is it's own field, not the answer to a specified ""test result"" field
+-----------------------------
+☐ Positive
+☐ Ambiguous",TRUE,"☐ Positive
+☐ Negative
+☐ Indeterminate
+☐ Pending",,,
+Has another respiratory organism been identified?,,,,"☐ Yes
+☐ No
+☐ Unknown",,,
+"if yes, specify the organism",,,,TRUE,,,
+Test Date,(mm/dd/yyyy),,TRUE,,,,
+Result Date,,YYYY-MM-DD,,,,,
+Results of National Microbiology Laboratory confirmatory testing:,"☐ Not submitted 
+☐ Positive 
+☐ Negative 
+☐ Inconclusive 
+☐ Pending",,,,,,
+Date of NML confirmation:,(mm/dd/yyyy),,,,,,
+ADDITIONAL DETAILS/COMMENTS,TRUE,,,TRUE,,,
+Ordering Provider,,,,,,TRUE,
+Label specimen as follows,,,,,,"• PHPR - PH Priority Referral
+• HCP - Direct Care Healthcare Professional
+• HCW - Healthcare Worker/Staff
+• LTC/CORR/SHELTER/DAYCARE
+• HOSP - Hospitalized patient
+• INDIGENOUS – Member from Indigenous community",
+Specimen Type & Source,,,,,,,
+Name of Antimicrobial,,,TRUE,,,,
+Specimen Type & Source,,,TRUE,,,,
+Test Method,,,TRUE,,,,
+Test Result,,,TRUE,,,,
+"Test Date",,,TRUE,,,,
+TO BE COMPLETED BY: The Public Health Agency of Canada,,,,,,,
+Date Received,(mm/dd/yyyy),,,,,,
+PHAC Case ID,TRUE,,,,,,
+"If applicable, national outbreak ID",TRUE,,,,,,
+*Check Priority Group if Applicable,,,,,,"☐ 1. Person Under Investigation by Public Health
+☐ 2. Symptomatic healthcare professional with direct
+patient care/contact (MD, NP, nurse, pharmacist etc.)
+☐ 3. Symptomatic staff in hospitals, nursing homes,
+childcare centres and other institutional or group living
+settings with direct patient care/contact
+☐ 4. Symptomatic patients/residents in institutional and
+group living settings with vulnerable populations (NH,
+corrections, shelter, etc.)
+☐ 5. Hospitalized patients with respiratory symptoms (new or
+exacerbated) and no alternative laboratory-based diagnosis
+☐ 6. Symptomatic members of Indigenous Communities",
+TREATMENT ,,,,,,,
+"Did the case receive prescribed prophylaxis
+prior to symptom onset?",,,□ Yes □ No □ Unk,,,,
+Specify name,,,TRUE,,,,
+date of first dose,,,(dd/mm/yyyy),,,,
+date of last dose,,,(dd/mm/yyyy),,,,
+"In the treatment of this infection, is the case taking:",,,"□ Antiviral medication
+□ Antibiotic/antifungal medication
+□ Immunosuppressant/immunomodulating
+medication
+□ Unknown
+□ None
+□ Other",,,,
+Specify Name (1),,,TRUE,,,,
+date of first dose (1),,,(dd/mm/yyyy),,,,
+date of last dose (1),,,(dd/mm/yyyy),,,,
+Specify name (2),,,TRUE,,,,
+date of first dose (2),,,(dd/mm/yyyy),,,,
+date of last dose (2),,,(dd/mm/yyyy),,,,
+ INTERVENTIONS: IMMUNIZATIONS,,,,,,,
+Did the case receive the current year’s seasonal influenza vaccine?,,,"□ Yes □ No □ Unk □ Vaccine not yet
+available",,,,
+"If yes, date of vaccination: ",,,(dd/mm/yyyy),,,,
+Did the case receive the previous year’s seasonal influenza vaccine?,,,"□ Yes □ No □ Unk 
+",,,,
+Did the case receive pneumococcal vaccine in the past?,,,□ Yes □ No □ Unk ,,,,
+"If yes, year of most recent dose:",,, (dd/mm/yyyy),,,,
+"If yes, type",,, ☐ polysaccharide or ☐ conjugate: 7 or 13,,,,
+ADDITIONAL DETAILS/COMMENTS (add as necessary,,,TRUE,,,,
+"Routine Activities Prompt Worksheet-Case11
+When interviewing a case, ensure that the following activity prompts are considered to
+identify a possible source of infection within the 14 days prior to the onset of symptoms:
+work; school; visitors at home; volunteer activities; daycare; religious activities; social
+activities (restaurants, shopping); sports; visits to acute care settings, long-term care
+homes, retirement homes, medical labs, dentists, and other health care providers;
+contact with ill persons; and contact with birds/swine or other animals.
+",,,,,,,
+Date of Onset,,,(Create an acquisition exposure for each activity),,,,
+Case Last Name,,,TRUE,,,,
+Case First Name,,,TRUE,,,,
+Date of Birth,,,TRUE,,,,
+Gender,,,TRUE,,,,
+PHU representative,,,TRUE,,,,
+Date/Time (Start and End) (Repeatable),,,TRUE,,,,
+Activities/Contacts  (Repeatable),,,TRUE,,,,
+Location of Activity  (Repeatable),,,TRUE,,,,
+Contact Person (Name & Tel)  (Repeatable),,,TRUE,,,,
+Comments (Repeatable),,,TRUE,,,,

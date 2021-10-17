@@ -1,0 +1,372 @@
+QC - Questionnaire d'enquete des cas de Coronavirus COVID-10 [version du: 2 avril 2020],,,
+Coronavirus COVID-19 QUESTIONNAIRE D’ENQUÊTE DES CAS,,,Grey indicates overlap with previous case form
+,,,"""☐"" on it's own indicates it belongs to left column."
+French,Translation,Data Element,Notes
+Sommare du cas ou du contacts sous investigation,Summary of the case or contacts under investigation,,
+Nom,Name,,
+Sexe,Sex/Gender,"☐ Male
+ ☐ Female",
+Age,Age,,
+DDN (Date de Naissance),Date of Birth,YYYY-MM-DD,
+V10 (Code V10),V10 Input (V10 Code),,V10 information system code for contact tracing
+Code Dossier DSP,DSP Folder Code,,DSP is DPS (Director of Professional services)
+Prise en charge,Person in charge,,
+Nom de l’enquêteur,Investigator's name,,
+Date de l’enquête,Date of survey,,
+Code RSS d’enquête:,RSS Survey Code,,
+Statut de l’enquête,Survey status,"☐ In progress
+ ☐ Finished
+ ☐ Lost in Follow-Up",
+Déclaration,Declaration,,
+Type de déclaration,Declaration type,"☐ Laboratory
+ ☐ Doctor
+ ☐ Identified by public DSP investigation",
+Date de réception de la déclaration en DSPublique,Date of receipt of the declaration of the Director of Public Health,YYYY-MM-DD,
+Si MD déclarant,If MD declaring,,
+,Name,,
+,Telephone,,
+Laboratoire,Laboratory,,
+Centre de prélèvement,Sampling Center,,
+RSS du Centre du prélèvement,Sampling Center RSS,,
+Date du prélèvement,Sampling Date,YYYY-MM-DD,
+Laboratoire d’analyse (annexe 1),Analysis Laboratory (annexe 1),☐ CHAUR Trois-Rivières,Not translated as not applicable to cross field analysis.
+,,☐ Charles Le Moyne,
+,,☐ Chicoutimi,
+,,☐ CHUM,
+,,☐ CHUQ,
+,,☐ CHUS,
+,,☐ CUSM,
+,,☐ Verdun,
+,,☐ Général juif,
+,,☐ Hôtel-Dieu Lévis,
+,,☐ LSPQ,
+,,☐ Maisonneuve Rosemont,
+,,☐ Sacré-Cœur,
+,,☐ Sainte-Justine,
+,,☐ Autre : ___,
+Date du résultat,Date of result,YYYY-MM-DD,
+Résultat,Result,"☐ Positive
+ ☐ Ambiguous",
+Statut Épidémiologique,Epidemiological Status,,
+Statut,Status,"☐ Confirmed Case
+ ☐ Case Confirmed by Epidemiological link
+ ☐ Probable Case
+ ☐ Contact",
+Date de validation du statut,Status validation date,YYYY-MM-DD,
+Hors Quebec,Outside Quebec,☐,
+Enquête du Cas ou du Contact,Case or Contact Investigation,,
+Identification de la personne,Identification of the person,,
+Nom,Name,,
+Prenom,First Name,,
+Date de Naissance,Date of Birth,YYYY-MM-DD,
+Age,Age,,
+Sexe,Sex/Gender,"☐ Male
+ ☐ Female",
+NAM (numéro d'assurance- maladie),Health Insurance Number,,
+Si le répondant à ce questionnaire n’est pas la personne sous investigation (cas ou contact),If the respondent to this questionnaire is not the person under investigation (case or contact),,
+Nom,Name,,
+Prenom,First Name,,
+Lien avec le cas,Link to the case,"☐ Mom
+ ☐ Father
+ ☐ Guardian",
+Coordonnées de la personne,Contact details of the person,,
+Adresse,Address,,
+Ville,City,,
+Code postal,Postal Code,,
+Résidence,Residence,☐,
+Suivi 14 jours,14 day follow-up,☐,
+téléphones,Telephones:,,
+Résidentiel,Residential,,
+Cellulaire,Cellular,,
+Bureau…poste,Office…ext,,
+Adresse courriel,Email Address,,
+Description de la personne,Description of the person,,
+Sans domicile fixe,Homeless,,
+Autochtone,Aboriginal,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+,if yes,"☐ First Nations
+ ☐ Inuit
+ ☐ Unknown",
+Réside sur une réserve,Resides on a reserve,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Réside en milieu fermé*,Resides in a closed environment,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"☐ CHSLD
+ ☐ RPA
+ ☐ Prison
+ ☐ Autre",if yes,"☐ Residential and long-term care centre
+ ☐ Private seniors' residence
+ ☐ Prison
+ ☐ Other",
+Préciser (Nom du milieu),Specify (Name of environment),,
+Adresse,Address,,
+Ville,City,,
+Code postal,Postal Code,,
+Contact dans le milieu,Professional contact,,
+Téléphone,Telephone,,
+Poste,Extension,,
+Adresse courriel,Email Address,,
+Occupation,Occupation,,
+Travailleur de la santé,Healthcare Worker,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"☐ CH
+ ☐ CHSLD
+ ☐ Laboratoir 
+ ☐ Premier répondant (santé)",if yes,"☐ Hospital centre
+ ☐ Residential and long-term care centre
+ ☐ Laboratory
+ ☐ First responder (health)",
+Lieu de travail,Workplace,,
+Travailleur en école ou garderie,School or daycare worker,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Nom du milieu,Name of environment,,
+Travailleur fournissant des services jugés essentiels,Worker providing essential services,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Si ou: Préciser l’emploi (Annexe 2),if yes: Specify the job (Annex 2),,
+Travailleur en milieu à risque d’éclosion,Worker at risk of outbreak,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"☐ RPA
+ ☐ Prison
+ ☐ CH
+ ☐ CHSLD
+ ☐ Commerce avec service à la clientèle 
+ ☐ Autre",if yes,"☐ Private seniors' residence
+ ☐ Prison
+ ☐ Hospital centre
+ ☐ Residential and long-term care centre
+ ☐ Trade with customer service
+ ☐ Other",
+Préciser (Nom du milieu),Specify (Name of environment),,
+Travailleur en contact direct avec la clientèle,Worker in direct contact with customers,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Symptômes,Symptoms,,
+Asymptomatique,Asymptomatic,☐,
+Date de début des symptômes,Date of Symptom Onset,YYYY-MM-DD,
+Période de contagiosité,Contagious period,,
+DU (date de début des symptômes),From (Date of Symptom Onset),___ + 14 days,
+AU,To,YYYY-MM-DD,
+Toux,Cough,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Fièvre (>=38oC),Fever (≥38°C),"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Fébrilité/Frissons (température non prise),Feverishness / Chills (temperature not taken),"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Maux de gorge,Sore throat,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Écoulement nasal,Runny nose,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Essoufflement difficultés respiratoires,Shortness of breath breathing difficulties,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Nausées vomissements,Nausea vomiting,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Maux de tête,Headache,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Faiblesse généralisée,General weakness,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"Douleur (musculaire, thoracique, abdominale etc.)","Pain (muscle, chest, abdominal etc.)","☐ Yes
+ ☐ No
+ ☐ Unknown",
+Irritabilité confusion,Irritability confusion,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Diarrhée,Diarrhea,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Autres (préciser),Others (specify),"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Enquête du Contact,Contact Survey,,
+Évaluation par la santé publique,Public Health Assessment,,
+Niveau de risque,Risk level,"☐ High
+ ☐ Moderate
+ ☐ Low",
+Contact rapporté par un cas,Contact reported by a case,"☐ Yes
+ ☐ No",
+Nom du cas,Case name,,
+No V10,V10 number,,
+Date de la dernière exposition au cas,Date of last exposure to the case,YYYY-MM-DD,
+Type de contact avec ce cas (un seul choix),Type of contact with this case (only one choice),,
+,"☐ Familial
+ ☐ CH
+ ☐ CHSLD
+ ☐ RPA
+ ☐ Milieu de travail 
+ ☐ Milieu scolaire 
+ ☐ Service de garde 
+ ☐ Transport public 
+ ☐ Autre milieu de soins, précisez","☐ Family
+ ☐ Hospital centre
+ ☐ Residential and long-term care centre
+ ☐ Private seniors' residence
+ ☐ Workplace
+ ☐ School
+ ☐ Guard service 
+ ☐ Public transport 
+ ☐ Other healthcare setting, specify",
+Autres types de contact,Other types of contact,"☐ Outbreak, specify",
+Enquête du Cas,Case Investigation,,
+Information sure les expositions du cas,Case Exposure Information,,
+Voyage hors région au cours des 14 jours précédant les symptômes,Travel outside the region during the 14 days preceding the symptoms,"☐ Yes
+ ☐ No",
+"Compléter les détails du transporteur pour tout déplacement hors région, province, pays, impliquant un transporteur public (autobus, bateau, avion) : compagnie de transport, n ̊ de vol, n ̊ de parcours, n ̊ de siège, etc.","Fill in the details of the transporter for any trip outside the region, province, country, involving a public transport (bus, boat, plane): transport company, flight no., route no., seat no., etc.",,
+Destination origine et destination,Destination Origin and destination,,
+Date d’arrivée au Québec,Date of arrival in Quebec,YYYY-MM-DD,
+Date de départ du Québec,Date of departure from Quebec,YYYY-MM-DD,
+"Hôtel
+ lieu de résidence","Hotel
+ Place of residence",,
+Détails du transporteur,Transporter details,,
+Contact avec un cas connu,Contact with a known case,,
+Contact avec un cas confirmé de COVID-19,Contact with a confirmed case of COVID-19,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Si out: Nom du cas,If yes: case name,,
+No V10,V10 number,,
+Date de la dernière exposition au cas,Date of last exposure to the case,YYYY-MM-DD,
+Préciser le type de contact avec le cas connu,Specify the type of contact with the known case,,
+,"☐ Non investigué
+ ☐ Familial
+ ☐ CHSLD
+ ☐ RPA
+ ☐ C. Hospitalier
+ ☐ Autre milieu de soins
+ ☐ Prison
+ ☐ École
+ ☐ Garderie
+ ☐ Milieu de travail 
+ ☐ Transport 
+ ☐ Autres","☐ Not investigated
+ ☐ Family
+ ☐ Residential and long-term care centre
+ ☐ Private seniors' residence
+ ☐ Hospital centre
+ ☐ Other healthcare setting
+ ☐ Prison
+ ☐ School
+ ☐ Nursery
+ ☐ Workplace
+ ☐ Transport 
+ ☐ Other",
+Autres types de contact,Other types of contact,"☐ Outbreak, specify",
+Nom du milieu,Name of environment,,
+Le cas connu a voyagé hors Canada,Known case traveled outside Canada,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Nom du contact,Contact Name,,
+Cas associé à une éclosion (à l'intention de las DSP),Case associated with an outbreak (for the DSP),,DSP is DPS (Director of Professional services)
+Le cas est associé à une éclosion connue,The case is associated with a known outbreak,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Si oui : précisez le milieu associé à cette éclosion,If yes: specify the environment associated with this outbreak,,
+Nom du milieu,Name of environment,,
+Précision (No Éclosion),Specify (No. Outbreak),,
+Autres milieux d'acquisition suspectés,Other suspected acquisition media …. Contact Survey,,
+"Si le cas n’a pas voyagé, n’a pas eu de contact avec un cas confirmé, n’est pas associé à une éclosion","If the case has not traveled, has not had contact with a confirmed case, is not associated with an outbreak",,
+"Au cours des 14 jours précédant les symptômes, le cas a fréquenté des milieux où il aurait été en contact avec des personnes symptomatiques","During the 14 days preceding the symptoms, the case frequented environments where he would have been in contact with symptomatic people","☐ Yes (Suspected circles)
+ ☐ No (No source of acquisition suspected)",
+Si oui compléter le tableau,"if yes
+ Suspect circles",,
+☐ Familial,☐ Family,"☐ Yes
+ ☐ No
+ ☐ Unknown
+ Details (middle name):",
+"☐ Milieu de soins, CH","☐ Care environment, Hospital centre",""" """,
+"☐ Milieu de soins, CHSLD","☐ Care environment, Residential and long-term care centre",""" """,
+"☐ Milieu de soins, RPA","☐ Care environment, Private seniors' residence",""" """,
+☐ Milieu de travail,☐ Work environment,""" """,
+☐ Milieu de scolaire,☐ School environment,""" """,
+☐ Service de garde,☐ Childcare services,""" """,
+☐ Transport public,☐ Public transport,""" """,
+☐ Autres,☐ Other,""" """,
+Renseignements complémentaires sur les milieux suspectés,Further information on suspected cases,,
+Conditions médicales préexistantes et facteurs de riqseues avant de devenir malade,Pre-existing Medical Conditions and Risk Factors before beoming sick,,
+Conditions,Conditions,,
+Hypertension,Hypertension,"☐ Yes
+ ☐ No
+ ☐ Unknown
+ Comments: (specify if necessary)",
+Maladie cardio-vasculaire,Heart disease,""" """,
+"Troubles neurologiques ou
+ neuro-musculaires","Neurological or
+ neuro-muscular troubles",""" """,
+Diabète,Diabetes,""" """,
+Immunosupprimée,Immunosuppressed,""" """,
+Maladie hépatique,Liver disease,""" """,
+Cancer,Cancer,""" """,
+Post-partum ≤ 6 semaines,Postpartum ≤ 6 weeks,""" """,
+Grossesse,Pregnancy,""" """,
+Maladie du rein,Kidney disease,""" """,
+"Maladie respiratoire (ex. : emphysème, bronchite chronique)","Respiratory illness (e.g. emphysema, chronic bronchitis)",""" """,
+Obésité sévère,Severe obesity,""" """,
+Tabagisme,Smoking,""" """,
+"Autres, préciser","Other, specify",""" """,
+Auscultation pulmonaire anormale,Abnormal pulmonary auscultation,""" """,
+Altération de la santé mentale,Altered mental health,""" """,
+Pneumonie par diagnostic clinique ou radiologique,,""" """,
+Coma,Coma,""" """,
+Diagnostic du syndrome de détresse respiratoire,Diagnosed with Acute Respiratory Distress Syndrome,""" """,
+Saturation O2 < 95%,O2 Saturation < 95%,""" """,
+Complications et issues de grossesse défavorables,Pregnancy complications and adverse outcomes,""" """,
+Complications néonatales,Neonatal complications,""" """,
+Encéphalite,Encephalitis,""" """,
+Hypotension,Hypotension,""" """,
+Insuffisance rénale,Renal faiure,""" """,
+Convulsions,Convulsions,""" """,
+Septicémie,Septicemia,""" """,
+Tachypnée (rythme respiratoire accéléré),Tachypnea (accelerated breathing rate),""" """,
+"Autres, préciser","Others, specify",""" """,
+"Évaluation, complications et diagnostics cliniques du case",Clinical Diagnostic and Complication Evaluations,,
+Gravité,Severity,,
+Isolement à domicile,Home isolation,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Date de début,Start date,YYYY-MM-DD,
+Date de fin,End date,YYYY-MM-DD,
+Hospitalisation,Hospitalization,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Date de début,Start date,YYYY-MM-DD,
+Date de fin,End date,YYYY-MM-DD,
+Unité de soins intensifs,Intensive care unit,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Date de début,Start date,YYYY-MM-DD,
+Date de fin,End date,YYYY-MM-DD,
+Ventilation mécanique,Mechanical ventilation,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Date de début,Start date,YYYY-MM-DD,
+Date de fin,End date,YYYY-MM-DD,
+Évolution du cas,Evolution of the case,,
+"☐ Rétabli 
+ ☐ Stable
+ ☐ Détérioré 
+ ☐ Décédé",,"☐ Recovered
+ ☐ Stable
+ ☐ Deteriorated
+ ☐ Deceased",
+Date de l’évaluation,Date of assessment,YYYY-MM-DD,
+Information sur le décès,Information about the deceased,,
+Décès lié à une maladie respiratoire,Deaths related to respiratory disease,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Cause du décès,Cause of death,,
+Date du décès,Date of death,YYYY-MM-DD,
+Notes,Notes,,

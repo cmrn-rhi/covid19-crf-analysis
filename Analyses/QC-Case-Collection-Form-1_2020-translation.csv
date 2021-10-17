@@ -1,0 +1,174 @@
+QC - Declaration des cas confirmes et des cas cliniques de COVID-19 20-210-103W [2020],,,
+DÉCLARATION DES CAS CONFIRMÉS ET DES CAS CLINIQUES DE COVID-19,,,Grey indicates overlap with previous case form
+,,,"""☐"" on it's own indicates it belongs to left column."
+French,Translation,Data Element,Notes
+Déclarant,Declarant,,
+Type de déclaration: ☐ Médecin,Declaration Type,☐ Doctor,
+Date de la déclaration: AAAA-MM-JJ,Declaration Date,YYYY-MM-DD,
+Nom,Name,,
+Prénom,Surname,,
+Tél. de l'établissement/clinique,Establishment/Clinic Telephone,,
+Nom de l'établissement/clinique où le patient a consulté,Name of Establishment/Clinic where the patient consulted,,
+Volle de l'établissement/clinique,City of Establishment/Clinic,,
+Identification du Patient,Patient Identification/Information,,
+Nom,Name,,
+Prénom,Surname,,
+Date de naissance: AAAA-MM-JJ,Date of Birth,YYYY-MM-DD,
+Âge,Age,,
+"Sexe:  
+ ☐ H
+ ☐ F
+ ☐ Autre",Sex,"☐ Male
+ ☐ Female
+ ☐ Other",
+NAM (obligatoire),health insurance number,,numéro d'assurance-maladie
+Addresse,Address,,
+Ville,City,,
+Code postal,Postal Code,,
+"Répondant:
+ ☐ Le patient répond pour lui-même
+ ☐ Mère
+ ☐ Père
+ ☐ Tuteur
+ ☐ Other/someone else answered for the patient",Respondent (first responder?),"☐ The patient answered for themself
+ ☐ Mother
+ ☐ Father
+ ☐ Guardian
+ ☐ Other/someone else answered for the patient",
+Nom du répondant,Respondent Name,,
+Prénom,Respondent Surname,,
+Téléphones du répondant,Respondent Telephone Numbers,,
+"Résidentiel
+Cellulair
+Bureau
+Post",,"Residential: ___
+ Mobile/Cellular: ___
+ Work: ___ Ext: ___",
+Adresse courriel,Respondent Email Address,,Whether those affected are contact by email is dependent on the scale of the epidemic.
+Indiquer les autres membres d'une même famille avec la COVID-19 ,Indicate other members of the COVID-19 patient's family,(x4),It's important that these declarations are completed for all family members. There is space for entry of four family members.
+Nom et prénom,First and last name,,
+Date de naissance,Date of Birth,,Date formatting not declared.
+"Sexe:  
+ ☐ H
+ ☐ F
+ ☐ Autre",Sex,"☐ Male
+ ☐ Female
+ ☐ Other",
+Information Concernant le Milieu de Vie du Patient,Patient Living Environment Information,,
+Vit à domicile,☐ Lives at home,,
+"☐ Réside en milieu fermé:
+☐ CH
+☐ CHSLD
+☐ RPA
+☐ Ressource intermédiaire (RI)
+☐ Ressource intermédiaire de type familial (RTF)
+☐ Hébergement communautair
+☐ Centre de réadaption
+☐ Prison
+☐ Congrégation religieuse
+☐ Autre",☐ Lives in a closed environment,"☐ Hospital centre
+ ☐ Residential and long-term care centre
+ ☐ Private seniors' residence
+ ☐ Intermediate resource (IR)
+ ☐ Family-type intermediate resource (FTR)
+ ☐ Community accommodation
+ ☐ Rehab center
+ ☐ Prison
+ ☐ Religious congregation
+ ☐ Other","Use of acronyms with clarifying their meaning.
+
+Determined the unspecified acronyms stand for the following:
+☐ Centre hospitalier (CH)
+ ☐ Centre d'hébergement et de soins de longue durée (CHSLD)
+ ☐ Résidences privées pour aînés (RPA)
+
+https://www.msss.gouv.qc.ca/en/reseau/etablissements-de-sante-et-de-services-sociaux/ 
+CRF-Manuscript_Canadian Case Collection Forms
+CRF-Manuscript_Canadian Case Collection Forms
+100%
+10
+A34
+
+
+"
+nom du milieu,Middle name: ___,,
+"☐ Groupes vulnérables:
+☐ Autochtone
+☐ Membre d'une communauté religieuse
+☐ Sans domicile fixe
+☐ Autre
+Préciser: ___",☐ Vulnerable groups,"☐ Native
+ ☐ Member of a religious community
+ ☐ Homeless
+ ☐ Other
+ Specify: ___",
+Symptômes,Symptoms,,
+Date de début des symptômes: AAAA-MM-JJ,Symptoms Start Date,YYYY-MM-DD,
+☐ Toux (récente ou chronique exacerbée),☐ Cough (recent or exacerbated chronic),"☐ Yes
+ ☐ No
+ ☐ Unknown","☐ Oui
+ ☐ Non
+ ☐ Inconnu"
+☐ Fièvre (≥38°C),☐ Fever (≥38ºC),"☐ Yes
+ ☐ No
+ ☐ Unknown",
+☐ Difficultés respiratoires,☐ Breathing difficulties,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"☐ Anosmie brutale sans obstruction nasale, accompagnée ou non d'agueusie","☐ Brutal anosmia without nasal obstruction, with or without ageusia","☐ Yes
+ ☐ No
+ ☐ Unknown",
+☐ Autres (préciser):,Others (specify):,,
+Exposition et Occupation,Exposure and Occupation,,
+"Dans les deux semaines précédant le début des symptômes, la personne a-t-elle eu un contact étroit (à moins de 2 mètres ou 6 pieds) et prolonge  (plus de 15 minutes en tout) avec une personne atteinte de la COVID-19?","In the two weeks preceding the onset of symptoms, did the person have close contact (within 2 meters or 6 feet) and extended (more than 15 minutes in total) with a person with COVID-19?","☐ Yes
+ ☐ No
+ ☐ Unknown",
+Est-ce que la personne a travaillé à l'extérieur de son domicile dans les deux semaines précédant le début des symptômes?,Did the person work outside the home in the two weeks before symptoms started?,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"Dans les 48 heures avant l'apparition des symptomes, la personne a-t-elle eu un contact étroit et prolongé en milieu de travail?","In the 48 hours before the onset of symptoms, did the patient have close and prolonged contact during work?","☐ Yes
+ ☐ No
+ ☐ Unknown",
+"Si oui, Identifier l'occupation","if yes, identify occupation",,
+Travailleur dans le milieu de la santé,Healthcare worker,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"Si oui,
+☐ CH
+☐ CHSLD
+☐ CLSC-Service courant
+☐ CLSC-Soutien à domicile
+☐ RPA
+☐ RI
+☐ RTF
+☐ 1er répondant
+☐ Laboratoire
+☐ Inconnu","if yes,","☐ Hospital centre
+ ☐ Residential and long-term care centre
+ ☐ Local Community Service Centre - Routine service
+ ☐ Local Community Service Centre - Home Support
+ ☐ Private seniors' residence
+ ☐ Intermediate resource
+ ☐ Family-type intermediate resource
+ ☐ 1st responder
+ ☐ Laboratory
+ ☐ Unknown",
+Travailleur dans le milieu de la santé,School or daycare worker,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Autre travailleur,Other worker,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+"Description de l'emploi ou tâche principale (ex: infirmière, cuisinier, policier)","Description of the job or main task (e.g. nurse, cook, police)",,
+Travailleur en contact direct avec la clientèle?,Worker in direct contact with customers?,"☐ Yes
+ ☐ No
+ ☐ Unknown",
+Préciser le milieu de travail,Specify the workplace,,
+Nom du milieu,Name of environment,,
+Adresse du milieu de travail,Workplace address,,
+Nom d'un contact en milieu de travail,Name of a workplace contact,,
+Numéro de téléphone du contact en milieu de travail,Workplace Contact Phone Number,,
+,,,
+Signature,signature,,
+Date,date,,
+Numéro de permis,License number,,

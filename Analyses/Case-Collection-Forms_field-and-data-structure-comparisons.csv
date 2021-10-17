@@ -66,12 +66,12 @@ Specify:_____
 □ Novel Influenza B
 _____",,,,
 Proxy Information,,,,,,,
-Is respondent a proxy?,☐ No ☐ Yes,TRUE,☐ No ☐ Yes,"Infer from ""sources of information""",,,
+Is respondent a proxy?,☐ No ☐ Yes,☐ The patient answered for themself,☐ No ☐ Yes,"Infer from ""sources of information""",,,
 Last name,TRUE,TRUE,TRUE,,,,
 First name,TRUE,TRUE,TRUE,,,TRUE,
-Relationship to case,TRUE,"☐ The patient answered for themself
-☐ Mother
+Relationship to case,TRUE,"☐ Mother
 ☐ Father
+☐ Guardian
 ☐ Other/someone else answered for the patient
 -------------------------------
 ☐ Mom

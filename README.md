@@ -9,4 +9,4 @@
 3. [Department of Pathology & Laboratory Medicine](https://pathology.ubc.ca/), University of British Columbia, Vancouver, BC, Canada
 4. [Department of Molecular Biology and Biochemistry](http://www.sfu.ca/mbb.html), Simon Fraser University, Burnaby, BC, Canada
 
-From the [Centre for Infectious Disease Genomics and One Health](https://cidgoh.ca/) base in the Faculty of Health Sciences at Simon Fraser University.
+From the [Centre for Infectious Disease Genomics and One Health](https://cidgoh.ca/) based at Simon Fraser University<sup>1</sup>.

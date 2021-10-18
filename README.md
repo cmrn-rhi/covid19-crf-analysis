@@ -1,6 +1,6 @@
 # COVID-19 Case Report Form Analysis Supplementary Files
 
-### Manuscript: Evaluating COVID-19 Case Report Forms to Inform SARS-CoV-2 Genomic Contextual Data Harmonization _[Submitted for publication]_
+### Manuscript: Evaluating COVID-19 Case Report Forms to Inform SARS-CoV-2 Genomic Contextual Data Harmonization _[Submitting for publication]_
 
 _DOI will be generated once all authors have reviewed the manuscript (via Zenodo)._
 

@@ -14,7 +14,7 @@ The case report forms analyzed. Collected electronically on publically accessibl
 |QC_Questionnaire-d'enquete-des-cas-de-Coronavirus-COVID-10_version-du-2-avril-2020.pdf| (Ministère de la Santé et des Services sociaux’s du Québec, 2020b) |
 |WHO_2019-nCoV-SurveillanceCRF-2020.2-eng.pdf *| (World Health Organization, 2020) |
 
-\* This form was analyzed, but results were not included in the manuscript analysis nor discussion.
+\* Analysis results were not included in the manuscript analysis nor discussion.
 
 ### References
 

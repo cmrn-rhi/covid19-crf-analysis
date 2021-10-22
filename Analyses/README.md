@@ -3,9 +3,7 @@
 
 `CSV` copies of the case report form analysis tables.
 
-The work contained in this folder and the `PDF` subfolder are licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
-[![CC BY 4.0][cc-by-image]][cc-by]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
@@ -24,6 +22,12 @@ The work contained in this folder and the `PDF` subfolder are licensed under a [
 | QC-Case-Collection-Form-2_2020-translation.csv | Translation data for (Ministère de la Santé et des Services sociaux’s du Québec, 2020b) |
 
 \* Results were not included in the manuscript analysis nor discussion.
+
+### License
+
+The work contained in this directory and the `PDF` subdirectory are licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
 
 ### References
 

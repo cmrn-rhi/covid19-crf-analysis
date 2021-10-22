@@ -16,6 +16,11 @@ The case report forms analyzed. Collected electronically on publically accessibl
 
 \* Analysis results were not included in the manuscript analysis nor discussion.
 
+### License
+
+The authors consider this collection an archive of the raw case report form data utilized in this analysis. 
+The contents of this directory are _not claimed_ by the authors under any license. Individuals wishing to know the licensing information of individual forms must seek out this information from the original source(s).
+
 ### References
 
 British Columbia Centre for Disease Control. (2020). COVID-19 Case Report Form. Resource Document. British Columbia Centre for Disease Control. http://www.bccdc.ca/Documents/COVID-19_Case_Report_Form.pdf. Accessed 12 May 2020.

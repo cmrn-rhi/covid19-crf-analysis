@@ -12,3 +12,24 @@ _DOI will be generated once all authors have reviewed the manuscript (via Zenodo
 4. [Department of Molecular Biology and Biochemistry](http://www.sfu.ca/mbb.html), Simon Fraser University, Burnaby, BC, Canada
 
 From the [Centre for Infectious Disease Genomics and One Health](https://cidgoh.ca/) based at Simon Fraser University<sup>1</sup>.
+
+## Repository Contents
+
+### Analysis
+
+The `CSV` tables of the case report form analyses. The `PDF` subdirectory contains all the same tables, but displayed with a more user-friendly formatting.
+
+### Case Collection Forms
+
+The case report forms that underwent analysis.
+
+## Licenses
+
+### Analysis
+
+The work contained in the `Analysis` directory and the `PDF` subdirectory are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+
+### Case Collection Forms
+
+The authors consider this collection an archive of the raw case report form data utilized in this analysis. The contents of this directory are _not claimed_ by the authors under any license. Individuals wishing to know the licensing information of individual forms must seek out this information from the original source(s).

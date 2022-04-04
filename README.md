@@ -1,8 +1,8 @@
 # COVID-19 Case Report Form Analysis Supplementary Files
 
-### Manuscript: Evaluating COVID-19 Case Report Forms to Inform SARS-CoV-2 Genomic Contextual Data Harmonization _[Submitting for publication]_
+### Manuscript: Evaluating COVID-19 Case Report Forms to Inform SARS-CoV-2 Genomic Contextual Data Harmonization: a Mixed Methods Analysis _[Submitting for publication]_
 
-_DOI will be generated once all authors have reviewed the manuscript (via Zenodo)._
+_Dataset specific DOI will be generated if manuscript is accepted (via Zenodo)._
 
 #### [Rhiannon Cameron](https://orcid.org/0000-0002-9578-0788)<sup>1</sup>, [Sarah Savić-Kallesøe](https://orcid.org/0000-0003-1329-8275)<sup>1</sup>, [Emma J Griffiths](https://orcid.org/0000-0002-1107-9135)<sup>1</sup>, [Damion Dooley](https://orcid.org/0000-0002-8844-9165)<sup>1</sup>, [Aishwarya Sridhar](https://orcid.org/0000-0002-4880-8311)<sup>1,2</sup>, [Anoosha Sehar](https://orcid.org/0000-0001-5275-8866)<sup>1</sup>, [Lauren C Tindale](https://orcid.org/0000-0001-7751-1042)<sup>3</sup>, and [William Hsiao](https://orcid.org/0000-0002-1342-4043)<sup>1,2,3,4</sup>
 
@@ -28,7 +28,6 @@ The case report forms that underwent analysis.
 ### Analysis
 
 The work contained in the `Analysis` directory and the `PDF` subdirectory are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-
 
 ### Case Collection Forms
 

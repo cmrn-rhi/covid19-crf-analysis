@@ -29,8 +29,10 @@ The work contained in this directory is licensed under a [Creative Commons Attri
 
 ### References
 
-All case report forms utilized within these analysis are available [here](https://github.com/cmrn-rhi/covid19-crf-analysis/tree/main/Case%20Collection%20Forms).
+### References
 
-Ministère de la Santé et des Services sociaux’s du Québec. (2020). Déclaration Des Cas Confirmés Et Des Cas Cliniques De COVID-19. Resource Document. Ministère de la Santé et des Services sociaux’s du Québec. https://publications.msss.gouv.qc.ca/msss/fichiers/2020/20-210-103W.pdf. Accessed 12 May 2020.
+*All case report forms utilized within these analysis are available [here](https://github.com/cmrn-rhi/covid19-crf-analysis/tree/main/Case%20Collection%20Forms).*
 
-Ministère de la Santé et des Services sociaux’s du Québec. (2020). Questionnaire D’enquête d’un cas de COVID-19. Resource Document. Ministère de la Santé et des Services sociaux’s du Québec. https://msss.gouv.qc.ca/professionnels/documents/coronavirus-2019-ncov/COVID-19-Cas-formulaire-d-enquete-QC.pdf. Accessed 12 May 2020.
+[1] Ministère de la Santé et des Services sociaux’s du Québec. Déclaration Des Cas Confirmés Et Des Cas Cliniques De COVID-19. 2020. https://publications.msss.gouv.qc.ca/msss/fichiers/2020/20-210-103W.pdf. Accessed 12 May 2020.
+
+[2] Ministère de la Santé et des Services sociaux’s du Québec. (2020). Questionnaire D’enquête d’un cas de COVID-19. 2020. https://msss.gouv.qc.ca/professionnels/documents/coronavirus-2019-ncov/COVID-19-Cas-formulaire-d-enquete-QC.pdf. Accessed 12 May 2020.

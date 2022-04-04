@@ -18,8 +18,8 @@
 | Case-Collection-Forms_common-fields.csv | Canadian case collection form field counts, highlighting the more common fields. |
 | Case-Collection-Forms_field-and-data-structure-comparisons.csv | Canadian case form field and data structure comparisons for all data elements. |
 | Case-Collection-Forms_most-common-fields.csv | Canadian case collection form field counts, but only fields where counts were >= 4. |
-| QC-Case-Collection-Form-1_2020-translation.csv | Translation data for (Ministère de la Santé et des Services sociaux’s du Québec, 2020a) |
-| QC-Case-Collection-Form-2_2020-translation.csv | Translation data for (Ministère de la Santé et des Services sociaux’s du Québec, 2020b) |
+| QC-Case-Collection-Form-1_2020-translation.csv | Translation data for Ministère de la Santé et des Services sociaux’s du Québec, 2020a [1] |
+| QC-Case-Collection-Form-2_2020-translation.csv | Translation data for Ministère de la Santé et des Services sociaux’s du Québec, 2020b [2] |
 
 \* Results were not included in the manuscript analysis nor discussion.
 
@@ -31,8 +31,8 @@ The work contained in this directory and the `PDF` subdirectory are licensed und
 
 ### References
 
-All case report forms utilized within these analysis are available [here](https://github.com/cmrn-rhi/covid19-crf-analysis/tree/main/Case%20Collection%20Forms).
+*All case report forms utilized within these analysis are available [here](https://github.com/cmrn-rhi/covid19-crf-analysis/tree/main/Case%20Collection%20Forms).*
 
-Ministère de la Santé et des Services sociaux’s du Québec. (2020). Déclaration Des Cas Confirmés Et Des Cas Cliniques De COVID-19. Resource Document. Ministère de la Santé et des Services sociaux’s du Québec. https://publications.msss.gouv.qc.ca/msss/fichiers/2020/20-210-103W.pdf. Accessed 12 May 2020.
+[1] Ministère de la Santé et des Services sociaux’s du Québec. Déclaration Des Cas Confirmés Et Des Cas Cliniques De COVID-19. 2020. https://publications.msss.gouv.qc.ca/msss/fichiers/2020/20-210-103W.pdf. Accessed 12 May 2020.
 
-Ministère de la Santé et des Services sociaux’s du Québec. (2020). Questionnaire D’enquête d’un cas de COVID-19. Resource Document. Ministère de la Santé et des Services sociaux’s du Québec. https://msss.gouv.qc.ca/professionnels/documents/coronavirus-2019-ncov/COVID-19-Cas-formulaire-d-enquete-QC.pdf. Accessed 12 May 2020.
+[2] Ministère de la Santé et des Services sociaux’s du Québec. (2020). Questionnaire D’enquête d’un cas de COVID-19. 2020. https://msss.gouv.qc.ca/professionnels/documents/coronavirus-2019-ncov/COVID-19-Cas-formulaire-d-enquete-QC.pdf. Accessed 12 May 2020.

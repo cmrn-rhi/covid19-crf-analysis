@@ -1,10 +1,12 @@
 # COVID-19 Case Report Form Analysis Supplementary Files
 
-### Manuscript: Evaluating COVID-19 Case Report Forms to Inform SARS-CoV-2 Genomic Contextual Data Harmonization: a Mixed Methods Analysis _[Submitting for publication]_
+### Manuscript: SARS-CoV-2 genomic contextual data harmonization: recommendations from a mixed methods analysis of COVID-19 case report forms across Canada
 
-_Dataset specific DOI can be generated if manuscript is accepted (via Zenodo)._
+**Manuscript DOI URL:** https://doi.org/10.1186/s13690-025-01604-5
 
-#### [Rhiannon Cameron](https://orcid.org/0000-0002-9578-0788)<sup>1</sup>, [Sarah Savić-Kallesøe](https://orcid.org/0000-0003-1329-8275)<sup>1</sup>, [Emma J Griffiths](https://orcid.org/0000-0002-1107-9135)<sup>1</sup>, [Damion Dooley](https://orcid.org/0000-0002-8844-9165)<sup>1</sup>, [Aishwarya Sridhar](https://orcid.org/0000-0002-4880-8311)<sup>1,2</sup>, [Anoosha Sehar](https://orcid.org/0000-0001-5275-8866)<sup>1</sup>, [Lauren C Tindale](https://orcid.org/0000-0001-7751-1042)<sup>3</sup>, and [William Hsiao](https://orcid.org/0000-0002-1342-4043)<sup>1,2,3,4</sup>
+**Data Availability DOI URL:** https://doi.org/10.17605/OSF.IO/4UA8P
+
+#### [Rhiannon Cameron](https://orcid.org/0000-0002-9578-0788)<sup>1</sup>, [Sarah Savić Kallesøe](https://orcid.org/0000-0003-1329-8275)<sup>1</sup>, [Emma J Griffiths](https://orcid.org/0000-0002-1107-9135)<sup>1</sup>, [Damion Dooley](https://orcid.org/0000-0002-8844-9165)<sup>1</sup>, [Aishwarya Sridhar](https://orcid.org/0000-0002-4880-8311)<sup>1,2</sup>, [Anoosha Sehar](https://orcid.org/0000-0001-5275-8866)<sup>1</sup>, [Lauren C Tindale](https://orcid.org/0000-0001-7751-1042)<sup>3</sup>, and [William Hsiao](https://orcid.org/0000-0002-1342-4043)<sup>1,2,3,4</sup>
 
 1. [Faculty of Health Sciences](https://www.sfu.ca/fhs.html), Simon Fraser University, Burnaby, BC, Canada
 2. [Bioinformatics Graduate Program](https://www.bioinformatics.ubc.ca/), University of British Columbia, Vancouver, BC, Canada
